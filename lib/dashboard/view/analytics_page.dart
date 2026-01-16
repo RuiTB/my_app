@@ -14,19 +14,19 @@ class AnalyticsPage extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            _ChartCard(
+            const _ChartCard(
               title: 'User Growth',
               data: [20, 35, 45, 30, 50, 65, 80],
               color: Colors.blue,
             ),
             const SizedBox(height: 16),
-            _ChartCard(
+            const _ChartCard(
               title: 'Revenue Trend',
               data: [10, 25, 40, 35, 55, 70, 90],
               color: Colors.green,
             ),
             const SizedBox(height: 16),
-            _ChartCard(
+            const _ChartCard(
               title: 'Engagement Rate',
               data: [30, 45, 35, 50, 60, 55, 75],
               color: Colors.purple,
@@ -37,10 +37,10 @@ class AnalyticsPage extends StatelessWidget {
               style: Theme.of(context).textTheme.titleLarge,
             ),
             const SizedBox(height: 16),
-            _MetricRow(label: 'Average Session Duration', value: '4m 32s'),
-            _MetricRow(label: 'Bounce Rate', value: '32%'),
-            _MetricRow(label: 'Conversion Rate', value: '2.4%'),
-            _MetricRow(label: 'Page Views', value: '12,345'),
+            const _MetricRow(label: 'Average Session Duration', value: '4m 32s'),
+            const _MetricRow(label: 'Bounce Rate', value: '32%'),
+            const _MetricRow(label: 'Conversion Rate', value: '2.4%'),
+            const _MetricRow(label: 'Page Views', value: '12,345'),
           ],
         ),
       ),

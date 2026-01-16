@@ -30,18 +30,18 @@ class DashboardPage extends StatelessWidget {
               change: '+12%',
             ),
             const SizedBox(height: 16),
-            Row(
+            const Row(
               children: [
                 Expanded(
                   child: _StatCard(
                     title: 'Revenue',
-                    value: '\$45,678',
+                    value: r'$45,678',
                     icon: Icons.attach_money,
                     color: Colors.green,
                     change: '+8%',
                   ),
                 ),
-                const SizedBox(width: 16),
+                SizedBox(width: 16),
                 Expanded(
                   child: _StatCard(
                     title: 'Orders',
@@ -67,19 +67,19 @@ class DashboardPage extends StatelessWidget {
               style: Theme.of(context).textTheme.titleLarge,
             ),
             const SizedBox(height: 16),
-            _ActivityItem(
+            const _ActivityItem(
               icon: Icons.person_add,
               title: 'New user registered',
               subtitle: '2 hours ago',
               color: Colors.blue,
             ),
-            _ActivityItem(
+            const _ActivityItem(
               icon: Icons.payment,
               title: 'Payment received',
               subtitle: '4 hours ago',
               color: Colors.green,
             ),
-            _ActivityItem(
+            const _ActivityItem(
               icon: Icons.notifications,
               title: 'System notification',
               subtitle: '6 hours ago',

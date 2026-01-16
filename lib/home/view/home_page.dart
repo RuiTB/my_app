@@ -34,7 +34,7 @@ class HomePage extends StatelessWidget {
         ),
         child: SafeArea(
           child: Padding(
-            padding: const EdgeInsets.all(16.0),
+            padding: const EdgeInsets.all(16),
             child: GridView.count(
               crossAxisCount: 2,
               crossAxisSpacing: 16,

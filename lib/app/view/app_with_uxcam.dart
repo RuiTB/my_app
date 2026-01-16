@@ -18,7 +18,7 @@ class _AppWithUxcamState extends State<AppWithUxcam> {
     super.initState();
     unawaited(FlutterUxcam.optIntoSchematicRecordings());
     final config = FlutterUxConfig(
-      userAppKey: '0n5owg7bnt8tc43-ae',
+      userAppKey: const String.fromEnvironment('UXCAM_APP_KEY'),
       enableAutomaticScreenNameTagging: false,
       enableIntegrationLogging: true,
       enableNetworkLogging: true,

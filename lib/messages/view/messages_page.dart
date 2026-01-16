@@ -44,7 +44,7 @@ class _MessagesPageState extends State<MessagesPage> {
     _Message(
       id: '5',
       sender: 'Eva Davis',
-      content: 'Let me know when you\'re available.',
+      content: "Let me know when you're available.",
       timestamp: DateTime.now().subtract(const Duration(days: 2)),
       isRead: true,
       avatarColor: Colors.pink,
@@ -248,18 +248,18 @@ class _MessagesPageState extends State<MessagesPage> {
       context: context,
       builder: (context) => AlertDialog(
         title: const Text('New Message'),
-        content: Column(
+        content: const Column(
           mainAxisSize: MainAxisSize.min,
           children: [
             TextField(
-              decoration: const InputDecoration(
+              decoration: InputDecoration(
                 labelText: 'To',
                 border: OutlineInputBorder(),
               ),
             ),
-            const SizedBox(height: 16),
+            SizedBox(height: 16),
             TextField(
-              decoration: const InputDecoration(
+              decoration: InputDecoration(
                 labelText: 'Message',
                 border: OutlineInputBorder(),
               ),

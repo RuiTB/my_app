@@ -139,7 +139,7 @@ class _TasksPageState extends State<TasksPage> {
   void _showAddTaskDialog(BuildContext context) {
     final titleController = TextEditingController();
     final descriptionController = TextEditingController();
-    _Priority selectedPriority = _Priority.medium;
+    var selectedPriority = _Priority.medium;
 
     showDialog<void>(
       context: context,
@@ -168,7 +168,7 @@ class _TasksPageState extends State<TasksPage> {
                 ),
                 const SizedBox(height: 16),
                 DropdownButtonFormField<_Priority>(
-                  value: selectedPriority,
+                  initialValue: selectedPriority,
                   decoration: const InputDecoration(
                     labelText: 'Priority',
                     border: OutlineInputBorder(),
