@@ -1,0 +1,642 @@
+--------- beginning of system
+01-16 19:34:55.286   569   660 E JobScheduler.Quota: <0>com.google.android.apps.docs has 0 EJ quota without running anything
+01-16 19:35:00.038   569   660 E JobScheduler.Quota: <0>com.google.android.apps.photos has 0 EJ quota without running anything
+--------- beginning of main
+01-16 19:35:10.024  1519  1636 E gclu    : *~*~*~ Previous channel {0} was garbage collected without being shut down! ~*~*~*
+01-16 19:35:10.024  1519  1636 E gclu    :     Make sure to call shutdown()/shutdownNow()
+01-16 19:35:10.024  1519  1636 E gclu    : java.lang.RuntimeException: ManagedChannel allocation site
+01-16 19:35:10.024  1519  1636 E gclu    : 	at gclt.<init>(:com.google.android.gms@242335038@24.23.35 (190400-646585959):21)
+01-16 19:35:10.024  1519  1636 E gclu    : 	at gclu.<init>(:com.google.android.gms@242335038@24.23.35 (190400-646585959):10)
+01-16 19:35:10.024  1519  1636 E gclu    : 	at gcls.a(:com.google.android.gms@242335038@24.23.35 (190400-646585959):244)
+01-16 19:35:10.024  1519  1636 E gclu    : 	at gbvj.a(:com.google.android.gms@242335038@24.23.35 (190400-646585959):5)
+01-16 19:35:10.024  1519  1636 E gclu    : 	at ewrn.a(:com.google.android.gms@242335038@24.23.35 (190400-646585959):173)
+01-16 19:35:10.024  1519  1636 E gclu    : 	at emsu.a(:com.google.android.gms@242335038@24.23.35 (190400-646585959):13)
+01-16 19:35:10.024  1519  1636 E gclu    : 	at etzu.a(:com.google.android.gms@242335038@24.23.35 (190400-646585959):3)
+01-16 19:35:10.024  1519  1636 E gclu    : 	at etyv.run(:com.google.android.gms@242335038@24.23.35 (190400-646585959):21)
+01-16 19:35:10.024  1519  1636 E gclu    : 	at etzw.run(:com.google.android.gms@242335038@24.23.35 (190400-646585959):5)
+01-16 19:35:10.024  1519  1636 E gclu    : 	at angs.c(:com.google.android.gms@242335038@24.23.35 (190400-646585959):50)
+01-16 19:35:10.024  1519  1636 E gclu    : 	at angs.run(:com.google.android.gms@242335038@24.23.35 (190400-646585959):76)
+01-16 19:35:10.024  1519  1636 E gclu    : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+01-16 19:35:10.024  1519  1636 E gclu    : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+01-16 19:35:10.024  1519  1636 E gclu    : 	at anmg.run(:com.google.android.gms@242335038@24.23.35 (190400-646585959):8)
+01-16 19:35:10.024  1519  1636 E gclu    : 	at java.lang.Thread.run(Thread.java:1012)
+01-16 19:35:36.332   569  1482 E TaskPersister: File error accessing recents directory (directory doesn't exist?).
+01-16 19:35:36.744   569  1482 E TaskPersister: File error accessing recents directory (directory doesn't exist?).
+01-16 19:35:49.625   569  1532 E SystemServiceRegistry: No service published for: persistent_data_block
+01-16 19:35:49.625   569  1532 E SystemServiceRegistry: android.os.ServiceManager$ServiceNotFoundException: No service published for: persistent_data_block
+01-16 19:35:49.625   569  1532 E SystemServiceRegistry: 	at android.os.ServiceManager.getServiceOrThrow(ServiceManager.java:203)
+01-16 19:35:49.625   569  1532 E SystemServiceRegistry: 	at android.app.SystemServiceRegistry$81.createService(SystemServiceRegistry.java:1071)
+01-16 19:35:49.625   569  1532 E SystemServiceRegistry: 	at android.app.SystemServiceRegistry$81.createService(SystemServiceRegistry.java:1068)
+01-16 19:35:49.625   569  1532 E SystemServiceRegistry: 	at android.app.SystemServiceRegistry$StaticServiceFetcher.getService(SystemServiceRegistry.java:2293)
+01-16 19:35:49.625   569  1532 E SystemServiceRegistry: 	at android.app.SystemServiceRegistry.getSystemService(SystemServiceRegistry.java:1812)
+01-16 19:35:49.625   569  1532 E SystemServiceRegistry: 	at android.app.ContextImpl.getSystemService(ContextImpl.java:2241)
+01-16 19:35:49.625   569  1532 E SystemServiceRegistry: 	at android.content.Context.getSystemService(Context.java:4503)
+01-16 19:35:49.625   569  1532 E SystemServiceRegistry: 	at com.android.server.pm.PackageInstallerSession.markAsSealed(PackageInstallerSession.java:2394)
+01-16 19:35:49.625   569  1532 E SystemServiceRegistry: 	at com.android.server.pm.PackageInstallerSession.commit(PackageInstallerSession.java:2143)
+01-16 19:35:49.625   569  1532 E SystemServiceRegistry: 	at android.content.pm.PackageInstaller$Session.commit(PackageInstaller.java:1977)
+01-16 19:35:49.625   569  1532 E SystemServiceRegistry: 	at com.android.server.pm.PackageManagerShellCommand.doCommitSession(PackageManagerShellCommand.java:4298)
+01-16 19:35:49.625   569  1532 E SystemServiceRegistry: 	at com.android.server.pm.PackageManagerShellCommand.doRunInstall(PackageManagerShellCommand.java:1634)
+01-16 19:35:49.625   569  1532 E SystemServiceRegistry: 	at com.android.server.pm.PackageManagerShellCommand.runInstall(PackageManagerShellCommand.java:1561)
+01-16 19:35:49.625   569  1532 E SystemServiceRegistry: 	at com.android.server.pm.PackageManagerShellCommand.onCommand(PackageManagerShellCommand.java:245)
+01-16 19:35:49.625   569  1532 E SystemServiceRegistry: 	at com.android.modules.utils.BasicShellCommandHandler.exec(BasicShellCommandHandler.java:97)
+01-16 19:35:49.625   569  1532 E SystemServiceRegistry: 	at android.os.ShellCommand.exec(ShellCommand.java:38)
+01-16 19:35:49.625   569  1532 E SystemServiceRegistry: 	at com.android.server.pm.PackageManagerService$IPackageManagerImpl.onShellCommand(PackageManagerService.java:6561)
+01-16 19:35:49.625   569  1532 E SystemServiceRegistry: 	at android.os.Binder.shellCommand(Binder.java:1230)
+01-16 19:35:49.625   569  1532 E SystemServiceRegistry: 	at android.os.Binder.onTransact(Binder.java:1043)
+01-16 19:35:49.625   569  1532 E SystemServiceRegistry: 	at android.content.pm.IPackageManager$Stub.onTransact(IPackageManager.java:4620)
+01-16 19:35:49.625   569  1532 E SystemServiceRegistry: 	at com.android.server.pm.PackageManagerService$IPackageManagerImpl.onTransact(PackageManagerService.java:6545)
+01-16 19:35:49.625   569  1532 E SystemServiceRegistry: 	at android.os.Binder.execTransactInternal(Binder.java:1505)
+01-16 19:35:49.625   569  1532 E SystemServiceRegistry: 	at android.os.Binder.execTransact(Binder.java:1444)
+01-16 19:35:49.626   569  1532 E SystemServiceRegistry: Manager wrapper not available: persistent_data_block
+01-16 19:35:49.901   569   730 E AppOps  : attributionTag VCN not declared in manifest of android
+01-16 19:35:49.904   945   945 E SmsApplication: com.google.android.apps.messaging lost android:read_cell_broadcasts:  (fixing)
+01-16 19:35:49.921   569   730 E AppOps  : attributionTag VCN not declared in manifest of android
+01-16 19:35:49.922   945   945 E CellBroadcastUtils: getDefaultCellBroadcastReceiverPackageName: no package found
+01-16 19:35:49.955   569   730 E AppOps  : attributionTag VCN not declared in manifest of android
+01-16 19:35:49.971   945   945 E SmsApplication: com.google.android.apps.messaging lost android:read_cell_broadcasts:  (fixing)
+01-16 19:35:49.977   945   945 E CellBroadcastUtils: getDefaultCellBroadcastReceiverPackageName: no package found
+01-16 19:35:49.986   945   945 E SmsApplication: com.google.android.apps.messaging lost android:read_cell_broadcasts:  (fixing)
+01-16 19:35:49.988   945   945 E CellBroadcastUtils: getDefaultCellBroadcastReceiverPackageName: no package found
+01-16 19:35:50.031  3570  3570 E ndroid.keychain: Not starting debugger since process cannot load the jdwp agent.
+01-16 19:35:53.105   569  1482 E TaskPersister: File error accessing recents directory (directory doesn't exist?).
+01-16 19:36:32.583   569  3833 E GnssPsdsDownloader: No Long-Term PSDS servers were specified in the GnssConfiguration
+01-16 19:36:38.327  1393  3850 E native  : E0000 00:00:1768581398.326400    3850 op_kernel.cc:1770] OpKernel ('MessageLite at 0xb400007248538c78') for unknown op: UnwrapDatasetVariant
+01-16 19:36:38.327  1393  3850 E native  : E0000 00:00:1768581398.327417    3850 op_kernel.cc:1770] OpKernel ('MessageLite at 0xb400007248539db8') for unknown op: WrapDatasetVariant
+01-16 19:36:38.327  1393  3850 E native  : E0000 00:00:1768581398.327479    3850 op_kernel.cc:1770] OpKernel ('MessageLite at 0xb400007248539c38') for unknown op: WrapDatasetVariant
+01-16 19:36:38.327  1393  3850 E native  : E0000 00:00:1768581398.327503    3850 op_kernel.cc:1770] OpKernel ('MessageLite at 0xb40000724853a5f8') for unknown op: UnwrapDatasetVariant
+01-16 19:36:38.329  1393  3850 E native  : E0000 00:00:1768581398.329326    3850 node_def_util.cc:676] NodeDef mentions attribute use_inter_op_parallelism which is not in the op definition: Op<name=PreprocessInk; signature=ink:string -> preprocessed_ink:string; attr=spec:string> This may be expected if your graph generating binary is newer  than this binary. Unknown attributes will be ignored. NodeDef: {{node PreprocessInk}}
+01-16 19:36:38.378  1393  1393 E PropertyBackgroundShape: PropertyBackgroundShape$Factory.extractAvailableStateSpecs():598 Multiple state is not supported: [16843623, 16842919]
+01-16 19:36:38.378  1393  1393 E PropertyBackgroundShape: PropertyBackgroundShape$Factory.extractAvailableStateSpecs():598 Multiple state is not supported: [16843623, 16842919]
+01-16 19:36:38.378  1393  1393 E PropertyBackgroundShape: PropertyBackgroundShape$Factory.extractAvailableStateSpecs():598 Multiple state is not supported: [16843623, 16842919]
+01-16 19:36:38.381  1393  1393 E PropertyBackgroundShape: PropertyBackgroundShape$Factory.extractAvailableStateSpecs():598 Multiple state is not supported: [16843623, 16842919]
+01-16 19:36:38.381  1393  1393 E PropertyBackgroundShape: PropertyBackgroundShape$Factory.extractAvailableStateSpecs():598 Multiple state is not supported: [16843623, 16842919]
+01-16 19:36:38.381  1393  1393 E PropertyBackgroundShape: PropertyBackgroundShape$Factory.extractAvailableStateSpecs():598 Multiple state is not supported: [16843623, 16842919]
+01-16 19:36:38.381  1393  1393 E PropertyBackgroundShape: PropertyBackgroundShape$Factory.extractAvailableStateSpecs():598 Multiple state is not supported: [16843623, 16842919]
+01-16 19:36:38.381  1393  1393 E PropertyBackgroundShape: PropertyBackgroundShape$Factory.extractAvailableStateSpecs():598 Multiple state is not supported: [16843623, 16842919]
+01-16 19:36:38.381  1393  1393 E PropertyBackgroundShape: PropertyBackgroundShape$Factory.extractAvailableStateSpecs():598 Multiple state is not supported: [16843623, 16842919]
+01-16 19:36:38.381  1393  1393 E PropertyBackgroundShape: PropertyBackgroundShape$Factory.extractAvailableStateSpecs():598 Multiple state is not supported: [16843623, 16842919]
+01-16 19:36:39.282  1519  1711 E ZappPhoneskyConn: Unable to bind to Phonesky
+01-16 19:36:39.288  1519  1711 E ZappPhoneskyConn: Unable to bind to Phonesky
+01-16 19:36:39.288  1519  1711 E DynamicModuleDownloader: Zapp module request failed: null
+01-16 19:36:39.358  1567  1567 E A       : onError
+01-16 19:36:39.358  1567  1567 E A       : com.google.android.apps.gsa.shared.speech.b.l: errorCode: 65561, engine: 2
+01-16 19:36:39.358  1567  1567 E A       : 	at com.google.android.apps.gsa.staticplugins.bp.a.f.a(PG:23)
+01-16 19:36:39.358  1567  1567 E A       : 	at com.google.android.apps.gsa.s3.o.hg(PG:13)
+01-16 19:36:39.358  1567  1567 E A       : 	at com.google.ch.g.a.f.e(PG:9)
+01-16 19:36:39.358  1567  1567 E A       : 	at com.google.android.apps.gsa.speech.k.a.g.d(PG:162)
+01-16 19:36:39.358  1567  1567 E A       : 	at com.google.android.apps.gsa.speech.k.a.g.iN(PG:26)
+01-16 19:36:39.358  1567  1567 E A       : 	at com.google.android.apps.gsa.s3.p.c(PG:102)
+01-16 19:36:39.358  1567  1567 E A       : 	at com.google.android.apps.gsa.s3.q.run(PG:1)
+01-16 19:36:39.358  1567  1567 E A       : 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:487)
+01-16 19:36:39.358  1567  1567 E A       : 	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+01-16 19:36:39.358  1567  1567 E A       : 	at com.google.android.apps.gsa.shared.util.c.a.e.run(PG:12)
+01-16 19:36:39.358  1567  1567 E A       : 	at com.google.android.apps.gsa.shared.util.c.a.bg.run(PG:3)
+01-16 19:36:39.358  1567  1567 E A       : 	at com.google.android.apps.gsa.shared.util.c.a.bg.run(PG:3)
+01-16 19:36:39.358  1567  1567 E A       : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+01-16 19:36:39.358  1567  1567 E A       : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+01-16 19:36:39.358  1567  1567 E A       : 	at java.lang.Thread.run(Thread.java:1012)
+01-16 19:36:39.358  1567  1567 E A       : 	at com.google.android.apps.gsa.shared.util.c.a.l.run(PG:42)
+01-16 19:36:39.358  1567  1567 E A       : Caused by: com.google.android.apps.gsa.shared.speech.b.n: errorCode: 65586, engine: 2
+01-16 19:36:39.358  1567  1567 E A       : 	at com.google.android.apps.gsa.s3.o.hg(PG:6)
+01-16 19:36:39.358  1567  1567 E A       : 	... 14 more
+01-16 19:36:39.358  1567  1567 E A       : Caused by: com.google.android.apps.gsa.shared.speech.b.j: errorCode: 401, engine: 2
+01-16 19:36:39.358  1567  1567 E A       : 	at com.google.android.apps.gsa.assistant.shared.n.i.b(PG:30)
+01-16 19:36:39.358  1567  1567 E A       : 	at com.google.android.apps.gsa.s3.producers.j.hq(PG:11)
+01-16 19:36:39.358  1567  1567 E A       : 	at com.google.android.apps.gsa.speech.k.a.g.d(PG:135)
+01-16 19:36:39.358  1567  1567 E A       : 	... 12 more
+01-16 19:36:42.492  1393  1393 E AndroidIME: AbstractPopupViewManager.movePopupView():325 popup view android.widget.FrameLayout{e253b46 G.E...... ......I. 0,0-0,0} is not shown!
+01-16 19:36:42.683  1393  1393 E PropertyBackgroundShape: PropertyBackgroundShape$Factory.extractAvailableStateSpecs():598 Multiple state is not supported: [16843623, 16842919]
+01-16 19:36:42.683  1393  1393 E PropertyBackgroundShape: PropertyBackgroundShape$Factory.extractAvailableStateSpecs():598 Multiple state is not supported: [16843623, 16842919]
+01-16 19:36:42.683  1393  1393 E PropertyBackgroundShape: PropertyBackgroundShape$Factory.extractAvailableStateSpecs():598 Multiple state is not supported: [16843623, 16842919]
+01-16 19:36:42.684  1393  1393 E PropertyBackgroundShape: PropertyBackgroundShape$Factory.extractAvailableStateSpecs():598 Multiple state is not supported: [16843623, 16842919]
+01-16 19:36:42.684  1393  1393 E PropertyBackgroundShape: PropertyBackgroundShape$Factory.extractAvailableStateSpecs():598 Multiple state is not supported: [16843623, 16842919]
+01-16 19:36:42.684  1393  1393 E PropertyBackgroundShape: PropertyBackgroundShape$Factory.extractAvailableStateSpecs():598 Multiple state is not supported: [16843623, 16842919]
+01-16 19:36:42.684  1393  1393 E PropertyBackgroundShape: PropertyBackgroundShape$Factory.extractAvailableStateSpecs():598 Multiple state is not supported: [16843623, 16842919]
+01-16 19:36:42.684  1393  1393 E PropertyBackgroundShape: PropertyBackgroundShape$Factory.extractAvailableStateSpecs():598 Multiple state is not supported: [16843623, 16842919]
+01-16 19:36:42.684  1393  1393 E PropertyBackgroundShape: PropertyBackgroundShape$Factory.extractAvailableStateSpecs():598 Multiple state is not supported: [16843623, 16842919]
+01-16 19:36:42.684  1393  1393 E PropertyBackgroundShape: PropertyBackgroundShape$Factory.extractAvailableStateSpecs():598 Multiple state is not supported: [16843623, 16842919]
+01-16 19:36:42.702  1393  1393 E KeyboardViewController: KeyboardViewController$CurrentKeyboardStatus.setViewStatus():1643 Setting the SoftKeyboardView status for different keyboard type, current: prime, new: accessory
+01-16 19:36:42.942  1393  3527 E HandwritingSuperpacksUtil: HandwritingSuperpacksUtil.getPackMappingPackName():40 No pack mapping pack found in []
+01-16 19:36:44.773  1393  1393 E KeyboardViewController: KeyboardViewController.unregisterListenerInternal():236 unregistering the listener null WIDGET dik@a450544 which has been unregistered or has never been registered.
+01-16 19:36:44.773  1393  1393 E KeyboardViewController: jrl
+01-16 19:36:44.773  1393  1393 E KeyboardViewController: 	at kns.Q(PG:51)
+01-16 19:36:44.773  1393  1393 E KeyboardViewController: 	at kns.k(PG:2)
+01-16 19:36:44.773  1393  1393 E KeyboardViewController: 	at com.google.android.apps.inputmethod.latin.keyboard.AccessoryKeyboard.e(PG:33)
+01-16 19:36:44.773  1393  1393 E KeyboardViewController: 	at kaf.b(PG:5)
+01-16 19:36:44.773  1393  1393 E KeyboardViewController: 	at jzn.s(PG:62)
+01-16 19:36:44.773  1393  1393 E KeyboardViewController: 	at jzq.s(PG:9)
+01-16 19:36:44.773  1393  1393 E KeyboardViewController: 	at jzq.d(PG:1)
+01-16 19:36:44.773  1393  1393 E KeyboardViewController: 	at kfm.onStartInputView(PG:82)
+01-16 19:36:44.773  1393  1393 E KeyboardViewController: 	at android.inputmethodservice.InputMethodService.doStartInput(InputMethodService.java:3396)
+01-16 19:36:44.773  1393  1393 E KeyboardViewController: 	at android.inputmethodservice.InputMethodService$InputMethodImpl.restartInput(InputMethodService.java:875)
+01-16 19:36:44.773  1393  1393 E KeyboardViewController: 	at android.inputmethodservice.InputMethodService$InputMethodImpl.dispatchStartInput(InputMethodService.java:890)
+01-16 19:36:44.773  1393  1393 E KeyboardViewController: 	at android.inputmethodservice.IInputMethodWrapper.executeMessage(IInputMethodWrapper.java:201)
+01-16 19:36:44.773  1393  1393 E KeyboardViewController: 	at com.android.internal.os.HandlerCaller$MyHandler.handleMessage(HandlerCaller.java:44)
+01-16 19:36:44.773  1393  1393 E KeyboardViewController: 	at android.os.Handler.dispatchMessage(Handler.java:107)
+01-16 19:36:44.773  1393  1393 E KeyboardViewController: 	at android.os.Looper.loopOnce(Looper.java:232)
+01-16 19:36:44.773  1393  1393 E KeyboardViewController: 	at android.os.Looper.loop(Looper.java:317)
+01-16 19:36:44.773  1393  1393 E KeyboardViewController: 	at android.app.ActivityThread.main(ActivityThread.java:8705)
+01-16 19:36:44.773  1393  1393 E KeyboardViewController: 	at java.lang.reflect.Method.invoke(Native Method)
+01-16 19:36:44.773  1393  1393 E KeyboardViewController: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:580)
+01-16 19:36:44.773  1393  1393 E KeyboardViewController: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:886)
+01-16 19:36:44.777  1393  1393 E native  : E0000 00:00:1768581404.777801    1393 key-correction-manager.cc:337] User feature cache is not ready for key correction!
+01-16 19:36:44.886  1393  1393 E KeyboardViewController: KeyboardViewController$CurrentKeyboardStatus.setViewStatus():1643 Setting the SoftKeyboardView status for different keyboard type, current: accessory, new: prime
+01-16 19:36:44.887  1393  1393 E KeyboardViewController: KeyboardViewController$CurrentKeyboardStatus.setViewStatus():1643 Setting the SoftKeyboardView status for different keyboard type, current: accessory, new: prime
+01-16 19:36:49.287  3596  3596 E FrameTracker: force finish cuj, time out: J<IME_INSETS_SHOW_ANIMATION::0@1@com.ruitb.test.my_app.dev>
+01-16 19:36:49.828  1393  1393 E native  : E0000 00:00:1768581409.828107    1393 key-correction-manager.cc:337] User feature cache is not ready for key correction!
+01-16 19:36:52.037  1393  1393 E KeyboardViewController: KeyboardViewController$CurrentKeyboardStatus.setViewStatus():1643 Setting the SoftKeyboardView status for different keyboard type, current: accessory, new: prime
+01-16 19:36:52.037  1393  1393 E KeyboardViewController: KeyboardViewController$CurrentKeyboardStatus.setViewStatus():1643 Setting the SoftKeyboardView status for different keyboard type, current: accessory, new: prime
+01-16 19:36:54.291   569   831 E SettingsToPropertiesMapper: key=persist.device_config.storage_native_boot.transcode_compat_manifest value=com.yelp.android,0,com.yy.biu,0,com.groupme.android,0,air.tv.douyu.android,0,com.baidu.mbaby,0,com.vlocker.locker,0,com.znxh.hyhuo,0,com.yixia.xiaokaxiu,0 exceeds system property max length.
+01-16 19:36:54.293   569   831 E SettingsToPropertiesMapper: key=persist.device_config.aconfig_flags.storage_native_boot.transcode_compat_manifest value=com.yelp.android,0,com.yy.biu,0,com.groupme.android,0,air.tv.douyu.android,0,com.baidu.mbaby,0,com.vlocker.locker,0,com.znxh.hyhuo,0,com.yixia.xiaokaxiu,0 exceeds system property max length.
+01-16 19:36:54.429  1519  2385 E gclu    : *~*~*~ Previous channel {0} was garbage collected without being shut down! ~*~*~*
+01-16 19:36:54.429  1519  2385 E gclu    :     Make sure to call shutdown()/shutdownNow()
+01-16 19:36:54.429  1519  2385 E gclu    : java.lang.RuntimeException: ManagedChannel allocation site
+01-16 19:36:54.429  1519  2385 E gclu    : 	at gclt.<init>(:com.google.android.gms@242335038@24.23.35 (190400-646585959):21)
+01-16 19:36:54.429  1519  2385 E gclu    : 	at gclu.<init>(:com.google.android.gms@242335038@24.23.35 (190400-646585959):10)
+01-16 19:36:54.429  1519  2385 E gclu    : 	at gcls.a(:com.google.android.gms@242335038@24.23.35 (190400-646585959):244)
+01-16 19:36:54.429  1519  2385 E gclu    : 	at gbvj.a(:com.google.android.gms@242335038@24.23.35 (190400-646585959):5)
+01-16 19:36:54.429  1519  2385 E gclu    : 	at ewrn.a(:com.google.android.gms@242335038@24.23.35 (190400-646585959):173)
+01-16 19:36:54.429  1519  2385 E gclu    : 	at emsu.a(:com.google.android.gms@242335038@24.23.35 (190400-646585959):13)
+01-16 19:36:54.429  1519  2385 E gclu    : 	at etzu.a(:com.google.android.gms@242335038@24.23.35 (190400-646585959):3)
+01-16 19:36:54.429  1519  2385 E gclu    : 	at etyv.run(:com.google.android.gms@242335038@24.23.35 (190400-646585959):21)
+01-16 19:36:54.429  1519  2385 E gclu    : 	at etzw.run(:com.google.android.gms@242335038@24.23.35 (190400-646585959):5)
+01-16 19:36:54.429  1519  2385 E gclu    : 	at angs.c(:com.google.android.gms@242335038@24.23.35 (190400-646585959):50)
+01-16 19:36:54.429  1519  2385 E gclu    : 	at angs.run(:com.google.android.gms@242335038@24.23.35 (190400-646585959):76)
+01-16 19:36:54.429  1519  2385 E gclu    : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+01-16 19:36:54.429  1519  2385 E gclu    : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+01-16 19:36:54.429  1519  2385 E gclu    : 	at anmg.run(:com.google.android.gms@242335038@24.23.35 (190400-646585959):8)
+01-16 19:36:54.429  1519  2385 E gclu    : 	at java.lang.Thread.run(Thread.java:1012)
+01-16 19:36:54.693   569   831 E SettingsToPropertiesMapper: key=persist.device_config.configuration.AdbWritableFlags__adb_writable_flags_list value=adservices/disable_sdk_sandbox,adservices/enforce_broadcast_receiver_restrictions,adservices/fledge_ad_selection_enforce_foreground_status_custom_audience,adservices/fledge_custom_audience_max_count,adservices/fledge_custom_audience_max_num_ads,adservices/fledge_custom_audience_max_owner_count,adservices/fledge_custom_audience_per_app_max_count,adservices/fledge_js_isolate_enforce_max_heap_size,adservices/fledge_js_isolate_max_heap_size_bytes,adservices/sdk_request_permits_per_second,adservices/sdksandbox_customized_sdk_context_enabled,configuration/namespace_to_package_mapping,constrain_display_apis/always_constrain_display_apis,constrain_display_apis/never_constrain_display_apis,constrain_display_apis/never_constrain_display_apis_all_packages,device_policy_manager/disable_resources_updatability,flipendo/default_savings_mode_launch,flipendo/essential_apps,flipendo/flipendo_enabled_launch,flipendo/grayscale_enabled_launch,flipendo/lever_ble_scanning_enabled_launch,flipendo/lever_hotspot_enabled_launch,flipendo/lever_work_profile_enabled_launch,flipendo/resuspend_delay_minutes,namespace/key,namespace1/key1,namespace1/key2,namespace2/key1,namespace2/key2,package_manager_service/incfs_default_timeouts,package_manager_service/known_digesters_list,privacy/location_access_check_periodic_interval_millis,rollback/enable_rollback_timeout,rollback/watchdog_explicit_health_check_enabled,rollback/watchdog_request_timeout_millis,rollback/watchdog_trigger_failure_count,rollback/watchdog_trigger_failure_duration_millis,rollback_boot/rollback_lifetime_in_millis,systemui/nas_generate_actions,systemui/nas_generate_replies,systemui/nas_max_messages_to_extract,systemui/nas_max_suggestions,testspace/another,testspace/flagname,textclassifier/config_updater_model_enabled,textclassifier/key,textclassifier/key2,textclassifier/manifest_url_annotator_en,textclassifier/manifest_url_annotator_ru,textclassifier/model_download_backoff_delay_in_millis,textclassifier/model_download_manager_enabled,textclassifier/multi_language_support_enabled,textclassifier/testing_locale_list_override,textclassifier/textclassifier_service_package_override,window_manager/enable_default_rescind_bal_privileges_from_pending_intent_sender,wrong/nas_generate_replies, exceeds system property max length.
+01-16 19:36:54.694   569   831 E SettingsToPropertiesMapper: key=persist.device_config.aconfig_flags.configuration.AdbWritableFlags__adb_writable_flags_list value=adservices/disable_sdk_sandbox,adservices/enforce_broadcast_receiver_restrictions,adservices/fledge_ad_selection_enforce_foreground_status_custom_audience,adservices/fledge_custom_audience_max_count,adservices/fledge_custom_audience_max_num_ads,adservices/fledge_custom_audience_max_owner_count,adservices/fledge_custom_audience_per_app_max_count,adservices/fledge_js_isolate_enforce_max_heap_size,adservices/fledge_js_isolate_max_heap_size_bytes,adservices/sdk_request_permits_per_second,adservices/sdksandbox_customized_sdk_context_enabled,configuration/namespace_to_package_mapping,constrain_display_apis/always_constrain_display_apis,constrain_display_apis/never_constrain_display_apis,constrain_display_apis/never_constrain_display_apis_all_packages,device_policy_manager/disable_resources_updatability,flipendo/default_savings_mode_launch,flipendo/essential_apps,flipendo/flipendo_enabled_launch,flipendo/grayscale_enabled_launch,flipendo/lever_ble_scanning_enabled_launch,flipendo/lever_hotspot_enabled_launch,flipendo/lever_work_profile_enabled_launch,flipendo/resuspend_delay_minutes,namespace/key,namespace1/key1,namespace1/key2,namespace2/key1,namespace2/key2,package_manager_service/incfs_default_timeouts,package_manager_service/known_digesters_list,privacy/location_access_check_periodic_interval_millis,rollback/enable_rollback_timeout,rollback/watchdog_explicit_health_check_enabled,rollback/watchdog_request_timeout_millis,rollback/watchdog_trigger_failure_count,rollback/watchdog_trigger_failure_duration_millis,rollback_boot/rollback_lifetime_in_millis,systemui/nas_generate_actions,systemui/nas_generate_replies,systemui/nas_max_messages_to_extract,systemui/nas_max_suggestions,testspace/another,testspace/flagname,textclassifier/config_updater_model_enabled,textclassifier/key,textclassifier/key2,textclassifier/manifest_url_annotator_en,textclassifier/manifest_url_annotator_ru,textclassifier/model_download_backoff_delay_in_millis,textclassifier/model_download_manager_enabled,textclassifier/multi_language_support_enabled,textclassifier/testing_locale_list_override,textclassifier/textclassifier_service_package_override,window_manager/enable_default_rescind_bal_privileges_from_pending_intent_sender,wrong/nas_generate_replies, exceeds system property max length.
+01-16 19:36:54.872   569   569 E DeviceConfig: Parsing int failed for location_mode
+01-16 19:36:54.946  1393  1393 E AndroidIME: AbstractPopupViewManager.movePopupView():325 popup view android.widget.FrameLayout{e253b46 G.E...... ......ID 0,0-992,814 aid=247} is not shown!
+01-16 19:36:59.199  1393  1393 E native  : E0000 00:00:1768581419.199736    1393 key-correction-manager.cc:337] User feature cache is not ready for key correction!
+01-16 19:36:59.242  1393  1393 E KeyboardViewController: KeyboardViewController$CurrentKeyboardStatus.setViewStatus():1643 Setting the SoftKeyboardView status for different keyboard type, current: accessory, new: prime
+01-16 19:36:59.242  1393  1393 E KeyboardViewController: KeyboardViewController$CurrentKeyboardStatus.setViewStatus():1643 Setting the SoftKeyboardView status for different keyboard type, current: accessory, new: prime
+01-16 19:37:00.085  3596  3596 E FrameTracker: force finish cuj, time out: J<IME_INSETS_HIDE_ANIMATION::1@1@com.ruitb.test.my_app.dev>
+01-16 19:37:02.370  3596  3596 E FrameTracker: force finish cuj, time out: J<IME_INSETS_SHOW_ANIMATION::0@1@com.ruitb.test.my_app.dev>
+01-16 19:37:15.005  3596  3596 E FrameTracker: force finish cuj, time out: J<IME_INSETS_HIDE_ANIMATION::1@1@com.ruitb.test.my_app.dev>
+01-16 19:37:32.424  1393  1393 E KeyboardViewController: KeyboardViewController$CurrentKeyboardStatus.setViewStatus():1643 Setting the SoftKeyboardView status for different keyboard type, current: accessory, new: prime
+01-16 19:37:32.433  1393  1393 E KeyboardViewController: KeyboardViewController$CurrentKeyboardStatus.setViewStatus():1643 Setting the SoftKeyboardView status for different keyboard type, current: accessory, new: prime
+01-16 19:37:35.596  1393  1393 E AndroidIME: AbstractPopupViewManager.movePopupView():325 popup view android.widget.FrameLayout{e253b46 G.E...... ......ID 0,0-992,814 aid=247} is not shown!
+01-16 19:37:37.877  1393  1393 E KeyboardViewController: KeyboardViewController$CurrentKeyboardStatus.setViewStatus():1643 Setting the SoftKeyboardView status for different keyboard type, current: accessory, new: prime
+01-16 19:37:37.877  1393  1393 E KeyboardViewController: KeyboardViewController$CurrentKeyboardStatus.setViewStatus():1643 Setting the SoftKeyboardView status for different keyboard type, current: accessory, new: prime
+01-16 19:37:42.812  3596  3596 E FrameTracker: force finish cuj, time out: J<IME_INSETS_SHOW_ANIMATION::0@1@com.ruitb.test.my_app.dev>
+01-16 19:37:48.777  1393  1393 E KeyboardViewController: KeyboardViewController$CurrentKeyboardStatus.setViewStatus():1643 Setting the SoftKeyboardView status for different keyboard type, current: accessory, new: prime
+01-16 19:37:48.778  1393  1393 E KeyboardViewController: KeyboardViewController$CurrentKeyboardStatus.setViewStatus():1643 Setting the SoftKeyboardView status for different keyboard type, current: accessory, new: prime
+01-16 19:37:53.694  1393  1393 E AndroidIME: AbstractPopupViewManager.movePopupView():325 popup view android.widget.FrameLayout{e253b46 G.E...... ......ID 0,0-992,611 aid=247} is not shown!
+01-16 19:37:55.788  1393  1393 E KeyboardViewController: KeyboardViewController$CurrentKeyboardStatus.setViewStatus():1643 Setting the SoftKeyboardView status for different keyboard type, current: accessory, new: prime
+01-16 19:37:55.788  1393  1393 E KeyboardViewController: KeyboardViewController$CurrentKeyboardStatus.setViewStatus():1643 Setting the SoftKeyboardView status for different keyboard type, current: accessory, new: prime
+01-16 19:37:55.876  3596  3596 E FrameTracker: force finish cuj, time out: J<IME_INSETS_HIDE_ANIMATION::1@1@com.ruitb.test.my_app.dev>
+01-16 19:37:59.139  3596  3596 E FrameTracker: force finish cuj, time out: J<IME_INSETS_SHOW_ANIMATION::0@1@com.ruitb.test.my_app.dev>
+01-16 19:38:03.910  1393  1393 E InputConnectionWrapper: InputConnectionWrapper.waitForInputConnectionFutureInternal():1773 Failed to get the input connection call's result.
+01-16 19:38:03.910  1393  1393 E InputConnectionWrapper: java.util.concurrent.TimeoutException: Waited 100 milliseconds (plus 3 milliseconds, 285125 nanoseconds delay) but future completed as timeout expired
+01-16 19:38:03.910  1393  1393 E InputConnectionWrapper: 	at pug.get(PG:49)
+01-16 19:38:03.910  1393  1393 E InputConnectionWrapper: 	at kbd.g(PG:9)
+01-16 19:38:03.910  1393  1393 E InputConnectionWrapper: 	at kbd.f(PG:20)
+01-16 19:38:03.910  1393  1393 E InputConnectionWrapper: 	at kbd.t(PG:27)
+01-16 19:38:03.910  1393  1393 E InputConnectionWrapper: 	at kef.e(PG:15)
+01-16 19:38:03.910  1393  1393 E InputConnectionWrapper: 	at kfm.A(PG:21)
+01-16 19:38:03.910  1393  1393 E InputConnectionWrapper: 	at joy.A(PG:3)
+01-16 19:38:03.910  1393  1393 E InputConnectionWrapper: 	at ink.c(PG:7)
+01-16 19:38:03.910  1393  1393 E InputConnectionWrapper: 	at ink.g(PG:53)
+01-16 19:38:03.910  1393  1393 E InputConnectionWrapper: 	at jov.a(PG:3)
+01-16 19:38:03.910  1393  1393 E InputConnectionWrapper: 	at joy.af(PG:15)
+01-16 19:38:03.910  1393  1393 E InputConnectionWrapper: 	at joy.I(PG:49)
+01-16 19:38:03.910  1393  1393 E InputConnectionWrapper: 	at jos.k(PG:30)
+01-16 19:38:03.910  1393  1393 E InputConnectionWrapper: 	at dia.q(PG:11)
+01-16 19:38:03.910  1393  1393 E InputConnectionWrapper: 	at kfm.onFinishInputView(PG:75)
+01-16 19:38:03.910  1393  1393 E InputConnectionWrapper: 	at android.inputmethodservice.InputMethodService.finishViews(InputMethodService.java:3245)
+01-16 19:38:03.910  1393  1393 E InputConnectionWrapper: 	at android.inputmethodservice.InputMethodService.hideWindow(InputMethodService.java:3284)
+01-16 19:38:03.910  1393  1393 E InputConnectionWrapper: 	at android.inputmethodservice.InputMethodService$InputMethodImpl.hideSoftInput(InputMethodService.java:967)
+01-16 19:38:03.910  1393  1393 E InputConnectionWrapper: 	at kfl.hideSoftInput(PG:67)
+01-16 19:38:03.910  1393  1393 E InputConnectionWrapper: 	at android.inputmethodservice.InputMethodService$InputMethodImpl.hideSoftInputWithToken(InputMethodService.java:927)
+01-16 19:38:03.910  1393  1393 E InputConnectionWrapper: 	at android.inputmethodservice.IInputMethodWrapper.executeMessage(IInputMethodWrapper.java:247)
+01-16 19:38:03.910  1393  1393 E InputConnectionWrapper: 	at com.android.internal.os.HandlerCaller$MyHandler.handleMessage(HandlerCaller.java:44)
+01-16 19:38:03.910  1393  1393 E InputConnectionWrapper: 	at android.os.Handler.dispatchMessage(Handler.java:107)
+01-16 19:38:03.910  1393  1393 E InputConnectionWrapper: 	at android.os.Looper.loopOnce(Looper.java:232)
+01-16 19:38:03.910  1393  1393 E InputConnectionWrapper: 	at android.os.Looper.loop(Looper.java:317)
+01-16 19:38:03.910  1393  1393 E InputConnectionWrapper: 	at android.app.ActivityThread.main(ActivityThread.java:8705)
+01-16 19:38:03.910  1393  1393 E InputConnectionWrapper: 	at java.lang.reflect.Method.invoke(Native Method)
+01-16 19:38:03.910  1393  1393 E InputConnectionWrapper: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:580)
+01-16 19:38:03.910  1393  1393 E InputConnectionWrapper: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:886)
+01-16 19:38:04.616   161   169 E lowmemorykiller: process_mrelease 2617 failed: No such process
+01-16 19:38:10.243   161   168 E lowmemorykiller: process_mrelease 2661 failed: No such process
+01-16 19:38:10.796   161   169 E lowmemorykiller: process_mrelease 2587 failed: No such process
+01-16 19:38:11.119   161   168 E lowmemorykiller: process_mrelease 2572 failed: No such process
+01-16 19:38:11.556   161   169 E lowmemorykiller: process_mrelease 2020 failed: No such process
+01-16 19:38:14.300  3596  3596 E FrameTracker: force finish cuj, time out: J<IME_INSETS_HIDE_ANIMATION::1@1@com.ruitb.test.my_app.dev>
+01-16 19:38:17.149   161   168 E lowmemorykiller: process_mrelease 2534 failed: No such process
+01-16 19:38:17.149   161   169 E lowmemorykiller: process_mrelease 2501 failed: No such process
+01-16 19:38:17.214   161   168 E lowmemorykiller: process_mrelease 2322 failed: No such process
+01-16 19:38:17.240   161   169 E lowmemorykiller: process_mrelease 2200 failed: No such process
+01-16 19:38:17.262   161   168 E lowmemorykiller: process_mrelease 2181 failed: No such process
+01-16 19:38:17.275   161   169 E lowmemorykiller: process_mrelease 1670 failed: No such process
+01-16 19:38:17.282   161   168 E lowmemorykiller: process_mrelease 2114 failed: No such process
+01-16 19:38:17.325  1393  1393 E KeyboardViewController: KeyboardViewController$CurrentKeyboardStatus.setViewStatus():1643 Setting the SoftKeyboardView status for different keyboard type, current: accessory, new: prime
+01-16 19:38:17.332  1393  1393 E KeyboardViewController: KeyboardViewController$CurrentKeyboardStatus.setViewStatus():1643 Setting the SoftKeyboardView status for different keyboard type, current: accessory, new: prime
+01-16 19:38:17.387   161   168 E lowmemorykiller: process_mrelease 1757 failed: No such process
+01-16 19:38:24.801  1393  1393 E AndroidIME: AbstractPopupViewManager.movePopupView():325 popup view android.widget.FrameLayout{e253b46 G.E...... ......ID 0,0-992,611 aid=247} is not shown!
+01-16 19:38:27.079   161   169 E lowmemorykiller: process_mrelease 2980 failed: No such process
+01-16 19:38:27.168  1393  1393 E KeyboardViewController: KeyboardViewController$CurrentKeyboardStatus.setViewStatus():1643 Setting the SoftKeyboardView status for different keyboard type, current: accessory, new: prime
+01-16 19:38:27.169  1393  1393 E KeyboardViewController: KeyboardViewController$CurrentKeyboardStatus.setViewStatus():1643 Setting the SoftKeyboardView status for different keyboard type, current: accessory, new: prime
+01-16 19:38:27.464   161   168 E lowmemorykiller: process_mrelease 2911 failed: No such process
+01-16 19:38:27.773  3596  3596 E FrameTracker: force finish cuj, time out: J<IME_INSETS_SHOW_ANIMATION::0@1@com.ruitb.test.my_app.dev>
+01-16 19:38:29.439   161   169 E lowmemorykiller: process_mrelease 2837 failed: No such process
+01-16 19:38:29.960   161   168 E lowmemorykiller: process_mrelease 2213 failed: No such process
+01-16 19:38:30.850  1393  1393 E putmethod.latin: Invalid resource ID 0x00000000.
+01-16 19:38:31.328  1393  1393 E putmethod.latin: Invalid resource ID 0x00000000.
+01-16 19:38:31.330  1393  1393 E putmethod.latin: Invalid resource ID 0x00000000.
+01-16 19:38:31.712   161   169 E lowmemorykiller: process_mrelease 2112 failed: No such process
+01-16 19:38:32.628   161   168 E lowmemorykiller: process_mrelease 2074 failed: No such process
+01-16 19:38:33.420   161   169 E lowmemorykiller: process_mrelease 3000 failed: No such process
+01-16 19:38:33.975   161   168 E lowmemorykiller: process_mrelease 2387 failed: No such process
+01-16 19:38:35.503   161   169 E lowmemorykiller: process_mrelease 3083 failed: No such process
+01-16 19:38:36.379   161   168 E lowmemorykiller: process_mrelease 2552 failed: No such process
+01-16 19:38:37.331   161   169 E lowmemorykiller: process_mrelease 2872 failed: No such process
+01-16 19:38:41.103   161   168 E lowmemorykiller: process_mrelease 3006 failed: No such process
+01-16 19:38:41.281  1393  1393 E InputConnectionWrapper: InputConnectionWrapper.waitForInputConnectionFutureInternal():1773 Failed to get the input connection call's result.
+01-16 19:38:41.281  1393  1393 E InputConnectionWrapper: java.util.concurrent.TimeoutException: Waited 100 milliseconds (plus 440166 nanoseconds delay) for pxi@58e83d[status=PENDING, info=[task=[running=[RUNNING ON ICWrapper-1], fch@8cba832]]]
+01-16 19:38:41.281  1393  1393 E InputConnectionWrapper: 	at pug.get(PG:52)
+01-16 19:38:41.281  1393  1393 E InputConnectionWrapper: 	at kbd.g(PG:9)
+01-16 19:38:41.281  1393  1393 E InputConnectionWrapper: 	at kbd.f(PG:20)
+01-16 19:38:41.281  1393  1393 E InputConnectionWrapper: 	at kbd.t(PG:27)
+01-16 19:38:41.281  1393  1393 E InputConnectionWrapper: 	at kef.e(PG:15)
+01-16 19:38:41.281  1393  1393 E InputConnectionWrapper: 	at kfm.A(PG:21)
+01-16 19:38:41.281  1393  1393 E InputConnectionWrapper: 	at joy.A(PG:3)
+01-16 19:38:41.281  1393  1393 E InputConnectionWrapper: 	at ink.c(PG:7)
+01-16 19:38:41.281  1393  1393 E InputConnectionWrapper: 	at ink.g(PG:53)
+01-16 19:38:41.281  1393  1393 E InputConnectionWrapper: 	at jov.a(PG:3)
+01-16 19:38:41.281  1393  1393 E InputConnectionWrapper: 	at joy.af(PG:15)
+01-16 19:38:41.281  1393  1393 E InputConnectionWrapper: 	at joy.I(PG:49)
+01-16 19:38:41.281  1393  1393 E InputConnectionWrapper: 	at jos.k(PG:30)
+01-16 19:38:41.281  1393  1393 E InputConnectionWrapper: 	at dia.q(PG:11)
+01-16 19:38:41.281  1393  1393 E InputConnectionWrapper: 	at kfm.onFinishInputView(PG:75)
+01-16 19:38:41.281  1393  1393 E InputConnectionWrapper: 	at android.inputmethodservice.InputMethodService.finishViews(InputMethodService.java:3245)
+01-16 19:38:41.281  1393  1393 E InputConnectionWrapper: 	at android.inputmethodservice.InputMethodService.hideWindow(InputMethodService.java:3284)
+01-16 19:38:41.281  1393  1393 E InputConnectionWrapper: 	at android.inputmethodservice.InputMethodService$InputMethodImpl.hideSoftInput(InputMethodService.java:967)
+01-16 19:38:41.281  1393  1393 E InputConnectionWrapper: 	at kfl.hideSoftInput(PG:67)
+01-16 19:38:41.281  1393  1393 E InputConnectionWrapper: 	at android.inputmethodservice.InputMethodService$InputMethodImpl.hideSoftInputWithToken(InputMethodService.java:927)
+01-16 19:38:41.281  1393  1393 E InputConnectionWrapper: 	at android.inputmethodservice.IInputMethodWrapper.executeMessage(IInputMethodWrapper.java:247)
+01-16 19:38:41.281  1393  1393 E InputConnectionWrapper: 	at com.android.internal.os.HandlerCaller$MyHandler.handleMessage(HandlerCaller.java:44)
+01-16 19:38:41.281  1393  1393 E InputConnectionWrapper: 	at android.os.Handler.dispatchMessage(Handler.java:107)
+01-16 19:38:41.281  1393  1393 E InputConnectionWrapper: 	at android.os.Looper.loopOnce(Looper.java:232)
+01-16 19:38:41.281  1393  1393 E InputConnectionWrapper: 	at android.os.Looper.loop(Looper.java:317)
+01-16 19:38:41.281  1393  1393 E InputConnectionWrapper: 	at android.app.ActivityThread.main(ActivityThread.java:8705)
+01-16 19:38:41.281  1393  1393 E InputConnectionWrapper: 	at java.lang.reflect.Method.invoke(Native Method)
+01-16 19:38:41.281  1393  1393 E InputConnectionWrapper: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:580)
+01-16 19:38:41.281  1393  1393 E InputConnectionWrapper: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:886)
+01-16 19:38:41.467   161   169 E lowmemorykiller: process_mrelease 3228 failed: No such process
+01-16 19:38:42.571  4410  4410 E webview_service: Not starting debugger since process cannot load the jdwp agent.
+01-16 19:38:51.007   161   169 E lowmemorykiller: process_mrelease 1288 failed: No such process
+01-16 19:38:51.023   161   169 E lowmemorykiller: process_mrelease 4410 failed: No such process
+01-16 19:38:51.059   161   169 E lowmemorykiller: process_mrelease 1174 failed: No such process
+01-16 19:38:51.635  3596  3596 E FrameTracker: force finish cuj, time out: J<IME_INSETS_HIDE_ANIMATION::1@1@com.ruitb.test.my_app.dev>
+01-16 19:38:56.087  1101  1101 E PagedView: validateNewPage: failed to find a page < mMaxScrollX
+01-16 19:38:56.588   161   169 E lowmemorykiller: process_mrelease 1837 failed: No such process
+01-16 19:38:56.598   569   724 E IPCThreadState: Binder transaction failure. id: 204944, BR_*: 29189, error: -22 (Invalid argument)
+01-16 19:38:56.637   569   724 E ConnectivityService: RemoteException caught trying to send a callback msg for NetworkRequest [ LISTEN id=110, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10137 RequestorUid: 10137 RequestorPkg: com.google.android.apps.messaging UnderlyingNetworks: Null] ]
+01-16 19:38:56.638   569   724 E IPCThreadState: Binder transaction failure. id: 204985, BR_*: 29189, error: -22 (Invalid argument)
+01-16 19:38:56.638   569   724 E ConnectivityService: RemoteException caught trying to send a callback msg for NetworkRequest [ LISTEN id=118, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Forbidden: LOCAL_NETWORK Uid: 10144 RequestorUid: 10144 RequestorPkg: com.google.android.gms UnderlyingNetworks: Null] ]
+01-16 19:38:56.663   161   169 E lowmemorykiller: process_mrelease 2853 failed: No such process
+01-16 19:38:56.727   161   169 E lowmemorykiller: process_mrelease 1547 failed: No such process
+01-16 19:38:56.773   161   169 E lowmemorykiller: process_mrelease 1567 failed: No such process
+01-16 19:38:56.862   901   901 E IPCThreadState: Binder transaction failure. id: 205167, BR_*: 29189, error: -22 (Invalid argument)
+01-16 19:38:56.869   901   901 E MediaControllerCompat: Dead object in unregisterCallback.
+01-16 19:38:56.869   901   901 E MediaControllerCompat: android.os.DeadObjectException
+01-16 19:38:56.869   901   901 E MediaControllerCompat: 	at android.os.BinderProxy.transactNative(Native Method)
+01-16 19:38:56.869   901   901 E MediaControllerCompat: 	at android.os.BinderProxy.transact(BinderProxy.java:586)
+01-16 19:38:56.869   901   901 E MediaControllerCompat: 	at android.support.v4.media.session.IMediaSession$Stub$Proxy.unregisterCallbackListener(IMediaSession.java:727)
+01-16 19:38:56.869   901   901 E MediaControllerCompat: 	at android.support.v4.media.session.MediaControllerCompat$MediaControllerImplApi21.unregisterCallback(MediaControllerCompat.java:2047)
+01-16 19:38:56.869   901   901 E MediaControllerCompat: 	at android.support.v4.media.session.MediaControllerCompat.unregisterCallback(MediaControllerCompat.java:580)
+01-16 19:38:56.869   901   901 E MediaControllerCompat: 	at com.android.bluetooth.audio_util.PlayerSettingsManager.unregisterMediaControllerCallback(PlayerSettingsManager.java:260)
+01-16 19:38:56.869   901   901 E MediaControllerCompat: 	at com.android.bluetooth.audio_util.PlayerSettingsManager.activePlayerChanged(PlayerSettingsManager.java:77)
+01-16 19:38:56.869   901   901 E MediaControllerCompat: 	at com.android.bluetooth.audio_util.PlayerSettingsManager.lambda$new$0(PlayerSettingsManager.java:47)
+01-16 19:38:56.869   901   901 E MediaControllerCompat: 	at com.android.bluetooth.audio_util.PlayerSettingsManager.$r8$lambda$5oSM5fcXeP0TFNW4Z6B8u4hfO2I(PlayerSettingsManager.java:0)
+01-16 19:38:56.869   901   901 E MediaControllerCompat: 	at com.android.bluetooth.audio_util.PlayerSettingsManager$$ExternalSyntheticLambda0.onActivePlayerChanged(R8$$SyntheticClass:0)
+01-16 19:38:56.869   901   901 E MediaControllerCompat: 	at com.android.bluetooth.audio_util.MediaPlayerList$1.onActiveSessionsChanged(MediaPlayerList.java:867)
+01-16 19:38:56.869   901   901 E MediaControllerCompat: 	at android.media.session.MediaSessionManager$SessionsChangedWrapper.callOnActiveSessionsChangedListener(MediaSessionManager.java:1292)
+01-16 19:38:56.869   901   901 E MediaControllerCompat: 	at android.media.session.MediaSessionManager$SessionsChangedWrapper.-$$Nest$mcallOnActiveSessionsChangedListener(Unknown Source:0)
+01-16 19:38:56.869   901   901 E MediaControllerCompat: 	at android.media.session.MediaSessionManager$SessionsChangedWrapper$1.lambda$onActiveSessionsChanged$0(MediaSessionManager.java:1277)
+01-16 19:38:56.869   901   901 E MediaControllerCompat: 	at android.media.session.MediaSessionManager$SessionsChangedWrapper$1.$r8$lambda$v-zQmMXFQ9fkWva-bGATn7CMvwg(Unknown Source:0)
+01-16 19:38:56.869   901   901 E MediaControllerCompat: 	at android.media.session.MediaSessionManager$SessionsChangedWrapper$1$$ExternalSyntheticLambda0.run(D8$$SyntheticClass:0)
+01-16 19:38:56.869   901   901 E MediaControllerCompat: 	at android.os.Handler.handleCallback(Handler.java:959)
+01-16 19:38:56.869   901   901 E MediaControllerCompat: 	at android.os.Handler.dispatchMessage(Handler.java:100)
+01-16 19:38:56.869   901   901 E MediaControllerCompat: 	at android.os.Looper.loopOnce(Looper.java:232)
+01-16 19:38:56.869   901   901 E MediaControllerCompat: 	at android.os.Looper.loop(Looper.java:317)
+01-16 19:38:56.869   901   901 E MediaControllerCompat: 	at android.app.ActivityThread.main(ActivityThread.java:8705)
+01-16 19:38:56.869   901   901 E MediaControllerCompat: 	at java.lang.reflect.Method.invoke(Native Method)
+01-16 19:38:56.869   901   901 E MediaControllerCompat: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:580)
+01-16 19:38:56.869   901   901 E MediaControllerCompat: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:886)
+01-16 19:38:56.877   569  4482 E system_server: Can't open file: /sys/kernel/ion/total_heaps_kb
+01-16 19:38:56.877   569  4482 E system_server: Can't open file: /sys/kernel/ion/total_pools_kb
+01-16 19:38:56.882  1035  1894 E IPCThreadState: Binder transaction failure. id: 205171, BR_*: 29189, error: -22 (Invalid argument)
+01-16 19:38:58.551  1393  1393 E KeyboardViewController: KeyboardViewController$CurrentKeyboardStatus.setViewStatus():1643 Setting the SoftKeyboardView status for different keyboard type, current: accessory, new: prime
+01-16 19:38:58.555  1393  1393 E KeyboardViewController: KeyboardViewController$CurrentKeyboardStatus.setViewStatus():1643 Setting the SoftKeyboardView status for different keyboard type, current: accessory, new: prime
+01-16 19:38:58.680  4495  4495 E gle.android.gms: Not starting debugger since process cannot load the jdwp agent.
+01-16 19:38:59.431   569  1482 E TaskPersister: File error accessing recents directory (directory doesn't exist?).
+01-16 19:39:01.350  1393  1393 E AndroidIME: AbstractPopupViewManager.movePopupView():325 popup view android.widget.FrameLayout{e253b46 G.E...... ......ID 0,0-992,611 aid=247} is not shown!
+01-16 19:39:04.016  1393  1393 E KeyboardViewController: KeyboardViewController$CurrentKeyboardStatus.setViewStatus():1643 Setting the SoftKeyboardView status for different keyboard type, current: accessory, new: prime
+01-16 19:39:04.017  1393  1393 E KeyboardViewController: KeyboardViewController$CurrentKeyboardStatus.setViewStatus():1643 Setting the SoftKeyboardView status for different keyboard type, current: accessory, new: prime
+01-16 19:39:08.905  3596  3596 E FrameTracker: force finish cuj, time out: J<IME_INSETS_SHOW_ANIMATION::0@1@com.ruitb.test.my_app.dev>
+01-16 19:39:14.887  1035  1035 E WearableService: PackageRecordCache: appContext was already set bbpj@11858e9 -> bbpj@792a94a
+01-16 19:39:14.983  1393  1393 E putmethod.latin: Invalid resource ID 0x00000000.
+01-16 19:39:14.986  1393  1393 E putmethod.latin: Invalid resource ID 0x00000000.
+01-16 19:39:27.608   161   168 E lowmemorykiller: process_mrelease 4530 failed: No such process
+01-16 19:39:28.131   161   169 E lowmemorykiller: process_mrelease 4495 failed: No such process
+01-16 19:39:28.904   161   168 E lowmemorykiller: process_mrelease 4676 failed: No such process
+01-16 19:39:30.195   161   169 E lowmemorykiller: process_mrelease 1436 failed: No such process
+01-16 19:39:30.984   161   168 E lowmemorykiller: process_mrelease 4698 failed: No such process
+01-16 19:39:32.703   161   169 E lowmemorykiller: process_mrelease 4727 failed: No such process
+01-16 19:39:32.801  1035  1173 E IPCThreadState: Binder transaction failure. id: 229512, BR_*: 29189, error: -22 (Invalid argument)
+01-16 19:39:32.862  1035  1186 E IPCThreadState: Binder transaction failure. id: 229556, BR_*: 29189, error: -22 (Invalid argument)
+01-16 19:39:33.798  1035  1858 E IPCThreadState: Process seems to be sending too many oneway calls.
+01-16 19:39:33.896   161   168 E lowmemorykiller: process_mrelease 4761 failed: No such process
+01-16 19:39:38.104   161   169 E lowmemorykiller: process_mrelease 1393 failed: No such process
+01-16 19:39:38.126   569   569 E IPCThreadState: Binder transaction failure. id: 232265, BR_*: 29189, error: -22 (Invalid argument)
+01-16 19:39:38.151   569   890 E IPCThreadState: Binder transaction failure. id: 232278, BR_*: 29189, error: -22 (Invalid argument)
+01-16 19:39:38.153   569   569 E IPCThreadState: Binder transaction failure. id: 232279, BR_*: 29189, error: -22 (Invalid argument)
+01-16 19:39:38.210   415   415 E BpTransactionCompletedListener: Failed to transact (-32)
+01-16 19:39:39.056  1035  1186 E IPCThreadState: Process seems to be sending too many oneway calls.
+01-16 19:39:39.951   161   168 E lowmemorykiller: process_mrelease 4843 failed: No such process
+01-16 19:39:40.515  4887  4914 E WindowMetricsNotification: WindowMetricsNotification.getCurrentOrEmpty():209 No window/display metrics has been notified.
+01-16 19:39:40.865  4887  4887 E GoogleInputMethodService: GoogleInputMethodService.getAppEditorInfo():2810 App EditorInfo should never be null.
+01-16 19:39:41.014  4887  4917 E HandwritingSuperpacksUtil: HandwritingSuperpacksUtil.getPackMappingPackName():40 No pack mapping pack found in []
+01-16 19:39:41.447   161   169 E lowmemorykiller: process_mrelease 4887 failed: No such process
+01-16 19:39:43.579  4952  4973 E WindowMetricsNotification: WindowMetricsNotification.getCurrentOrEmpty():209 No window/display metrics has been notified.
+01-16 19:39:44.231  4952  4952 E GoogleInputMethodService: GoogleInputMethodService.getAppEditorInfo():2810 App EditorInfo should never be null.
+01-16 19:39:44.253   161   168 E lowmemorykiller: process_mrelease 4810 failed: No such process
+01-16 19:39:44.687  4952  4985 E HandwritingSuperpacksUtil: HandwritingSuperpacksUtil.getPackMappingPackName():40 No pack mapping pack found in []
+01-16 19:39:45.002  4952  4952 E GoogleInputMethodService: GoogleInputMethodService.getAppEditorInfo():2810 App EditorInfo should never be null.
+01-16 19:39:45.335   415   530 E IPCThreadState: Binder transaction failure. id: 237761, BR_*: 29189, error: -3 (No such process)
+01-16 19:39:45.347   161   169 E lowmemorykiller: process_mrelease 1101 failed: No such process
+01-16 19:39:45.425   569  4453 E IPCThreadState: Binder transaction failure. id: 237797, BR_*: 29189, error: -22 (Invalid argument)
+01-16 19:39:45.442   569  4453 E WindowManager: Display reconfigured outside of a transition: Display{#0 state=ON size=1080x2340 ROTATION_0}
+01-16 19:39:45.542   415   415 E BpTransactionCompletedListener: Failed to transact (-32)
+01-16 19:39:45.610   812   812 E OverviewProxyService: Failed to get overview proxy for system bar attr change.
+01-16 19:39:45.670  5032  5032 E s.nexuslauncher: Not starting debugger since process cannot load the jdwp agent.
+01-16 19:39:46.073  4952  4975 E HandwritingSuperpacksUtil: HandwritingSuperpacksUtil.getPackMappingPackName():40 No pack mapping pack found in []
+01-16 19:39:46.319  5054  5054 E d.process.acore: Not starting debugger since process cannot load the jdwp agent.
+01-16 19:39:46.735   569   569 E IPCThreadState: Binder transaction failure. id: 238971, BR_*: 29189, error: -22 (Invalid argument)
+01-16 19:39:46.735   161   168 E lowmemorykiller: process_mrelease 4952 failed: No such process
+01-16 19:39:47.003   569   892 E WindowManager: Display reconfigured outside of a transition: Display{#0 state=ON size=1080x2340 ROTATION_0}
+01-16 19:39:47.094   161   169 E lowmemorykiller: process_mrelease 5054 failed: No such process
+01-16 19:39:47.202   569   883 E TransitionController: Set visible without transition ActivityRecord{3b60f6 u0 com.google.android.apps.nexuslauncher/.NexusLauncherActivity t152} playing=false caller=com.android.server.wm.ActivityTaskSupervisor.realStartActivityLocked:856 
+01-16 19:39:47.350  5089  5089 E gle.android.gms: Not starting debugger since process cannot load the jdwp agent.
+01-16 19:39:48.775   161   168 E lowmemorykiller: process_mrelease 5032 failed: No such process
+01-16 19:39:48.799   812   847 E SingleInstanceRemoteListener: Failed remote call
+01-16 19:39:48.799   812   847 E SingleInstanceRemoteListener: android.os.DeadObjectException
+01-16 19:39:48.799   812   847 E SingleInstanceRemoteListener: 	at android.os.BinderProxy.transactNative(Native Method)
+01-16 19:39:48.799   812   847 E SingleInstanceRemoteListener: 	at android.os.BinderProxy.transact(BinderProxy.java:586)
+01-16 19:39:48.799   812   847 E SingleInstanceRemoteListener: 	at com.android.wm.shell.transition.HomeTransitionObserver.notifyHomeVisibilityChanged(go/retraceme 2affaa3798c2c8bbee3b481cb73ba41bdb6ef6846da601c9baa6a3ad5af735e3:37)
+01-16 19:39:48.799   812   847 E SingleInstanceRemoteListener: 	at com.android.wm.shell.transition.HomeTransitionObserver.onTransitionReady(go/retraceme 2affaa3798c2c8bbee3b481cb73ba41bdb6ef6846da601c9baa6a3ad5af735e3:86)
+01-16 19:39:48.799   812   847 E SingleInstanceRemoteListener: 	at com.android.wm.shell.transition.Transitions.dispatchReady(go/retraceme 2affaa3798c2c8bbee3b481cb73ba41bdb6ef6846da601c9baa6a3ad5af735e3:169)
+01-16 19:39:48.799   812   847 E SingleInstanceRemoteListener: 	at com.android.wm.shell.transition.Transitions.onTransitionReady(go/retraceme 2affaa3798c2c8bbee3b481cb73ba41bdb6ef6846da601c9baa6a3ad5af735e3:242)
+01-16 19:39:48.799   812   847 E SingleInstanceRemoteListener: 	at com.android.wm.shell.transition.Transitions$TransitionPlayerImpl$$ExternalSyntheticLambda0.run(go/retraceme 2affaa3798c2c8bbee3b481cb73ba41bdb6ef6846da601c9baa6a3ad5af735e3:13)
+01-16 19:39:48.799   812   847 E SingleInstanceRemoteListener: 	at android.os.Handler.handleCallback(Handler.java:959)
+01-16 19:39:48.799   812   847 E SingleInstanceRemoteListener: 	at android.os.Handler.dispatchMessage(Handler.java:100)
+01-16 19:39:48.799   812   847 E SingleInstanceRemoteListener: 	at android.os.Looper.loopOnce(Looper.java:232)
+01-16 19:39:48.799   812   847 E SingleInstanceRemoteListener: 	at android.os.Looper.loop(Looper.java:317)
+01-16 19:39:48.799   812   847 E SingleInstanceRemoteListener: 	at android.os.HandlerThread.run(HandlerThread.java:85)
+01-16 19:39:48.821   569  4400 E IPCThreadState: Binder transaction failure. id: 241180, BR_*: 29189, error: -22 (Invalid argument)
+01-16 19:39:48.824   812   847 E ShellTransitions: Error running remote transition.
+01-16 19:39:48.824   812   847 E ShellTransitions: android.os.DeadObjectException
+01-16 19:39:48.824   812   847 E ShellTransitions: 	at android.os.BinderProxy.transactNative(Native Method)
+01-16 19:39:48.824   812   847 E ShellTransitions: 	at android.os.BinderProxy.transact(BinderProxy.java:586)
+01-16 19:39:48.824   812   847 E ShellTransitions: 	at android.window.IRemoteTransition$Stub$Proxy.startAnimation(IRemoteTransition.java:240)
+01-16 19:39:48.824   812   847 E ShellTransitions: 	at com.android.wm.shell.transition.RemoteTransitionHandler.startAnimation(go/retraceme 2affaa3798c2c8bbee3b481cb73ba41bdb6ef6846da601c9baa6a3ad5af735e3:258)
+01-16 19:39:48.824   812   847 E ShellTransitions: 	at com.android.wm.shell.transition.Transitions.processReadyQueue(go/retraceme 2affaa3798c2c8bbee3b481cb73ba41bdb6ef6846da601c9baa6a3ad5af735e3:456)
+01-16 19:39:48.824   812   847 E ShellTransitions: 	at com.android.wm.shell.transition.Transitions.dispatchReady(go/retraceme 2affaa3798c2c8bbee3b481cb73ba41bdb6ef6846da601c9baa6a3ad5af735e3:644)
+01-16 19:39:48.824   812   847 E ShellTransitions: 	at com.android.wm.shell.transition.Transitions.onTransitionReady(go/retraceme 2affaa3798c2c8bbee3b481cb73ba41bdb6ef6846da601c9baa6a3ad5af735e3:242)
+01-16 19:39:48.824   812   847 E ShellTransitions: 	at com.android.wm.shell.transition.Transitions$TransitionPlayerImpl$$ExternalSyntheticLambda0.run(go/retraceme 2affaa3798c2c8bbee3b481cb73ba41bdb6ef6846da601c9baa6a3ad5af735e3:13)
+01-16 19:39:48.824   812   847 E ShellTransitions: 	at android.os.Handler.handleCallback(Handler.java:959)
+01-16 19:39:48.824   812   847 E ShellTransitions: 	at android.os.Handler.dispatchMessage(Handler.java:100)
+01-16 19:39:48.824   812   847 E ShellTransitions: 	at android.os.Looper.loopOnce(Looper.java:232)
+01-16 19:39:48.824   812   847 E ShellTransitions: 	at android.os.Looper.loop(Looper.java:317)
+01-16 19:39:48.824   812   847 E ShellTransitions: 	at android.os.HandlerThread.run(HandlerThread.java:85)
+01-16 19:39:48.877   415   415 E BpTransactionCompletedListener: Failed to transact (-32)
+01-16 19:39:48.923   812   847 E IPCThreadState: Binder transaction failure. id: 241562, BR_*: 29189, error: -22 (Invalid argument)
+01-16 19:39:48.924   812   847 E RemoteTransitionHandler: Error delegating onTransitionConsumed()
+01-16 19:39:48.924   812   847 E RemoteTransitionHandler: android.os.DeadObjectException
+01-16 19:39:48.924   812   847 E RemoteTransitionHandler: 	at android.os.BinderProxy.transactNative(Native Method)
+01-16 19:39:48.924   812   847 E RemoteTransitionHandler: 	at android.os.BinderProxy.transact(BinderProxy.java:586)
+01-16 19:39:48.924   812   847 E RemoteTransitionHandler: 	at android.window.IRemoteTransition$Stub$Proxy.onTransitionConsumed(IRemoteTransition.java:310)
+01-16 19:39:48.924   812   847 E RemoteTransitionHandler: 	at com.android.wm.shell.transition.RemoteTransitionHandler.onTransitionConsumed(go/retraceme 2affaa3798c2c8bbee3b481cb73ba41bdb6ef6846da601c9baa6a3ad5af735e3:16)
+01-16 19:39:48.924   812   847 E RemoteTransitionHandler: 	at com.android.wm.shell.transition.Transitions.onAbort(go/retraceme 2affaa3798c2c8bbee3b481cb73ba41bdb6ef6846da601c9baa6a3ad5af735e3:34)
+01-16 19:39:48.924   812   847 E RemoteTransitionHandler: 	at com.android.wm.shell.transition.Transitions.dispatchReady(go/retraceme 2affaa3798c2c8bbee3b481cb73ba41bdb6ef6846da601c9baa6a3ad5af735e3:214)
+01-16 19:39:48.924   812   847 E RemoteTransitionHandler: 	at com.android.wm.shell.transition.Transitions.onTransitionReady(go/retraceme 2affaa3798c2c8bbee3b481cb73ba41bdb6ef6846da601c9baa6a3ad5af735e3:242)
+01-16 19:39:48.924   812   847 E RemoteTransitionHandler: 	at com.android.wm.shell.transition.Transitions$TransitionPlayerImpl$$ExternalSyntheticLambda0.run(go/retraceme 2affaa3798c2c8bbee3b481cb73ba41bdb6ef6846da601c9baa6a3ad5af735e3:13)
+01-16 19:39:48.924   812   847 E RemoteTransitionHandler: 	at android.os.Handler.handleCallback(Handler.java:959)
+01-16 19:39:48.924   812   847 E RemoteTransitionHandler: 	at android.os.Handler.dispatchMessage(Handler.java:100)
+01-16 19:39:48.924   812   847 E RemoteTransitionHandler: 	at android.os.Looper.loopOnce(Looper.java:232)
+01-16 19:39:48.924   812   847 E RemoteTransitionHandler: 	at android.os.Looper.loop(Looper.java:317)
+01-16 19:39:48.924   812   847 E RemoteTransitionHandler: 	at android.os.HandlerThread.run(HandlerThread.java:85)
+01-16 19:39:48.996  5116  5116 E s.nexuslauncher: Not starting debugger since process cannot load the jdwp agent.
+01-16 19:39:49.871   161   169 E lowmemorykiller: process_mrelease 5089 failed: No such process
+01-16 19:39:50.435   569   890 E WindowManager: Display reconfigured outside of a transition: Display{#0 state=ON size=1080x2340 ROTATION_0}
+01-16 19:39:50.632   569  1546 E TransitionController: Set visible without transition ActivityRecord{3b60f6 u0 com.google.android.apps.nexuslauncher/.NexusLauncherActivity t152} playing=false caller=com.android.server.wm.ActivityTaskSupervisor.realStartActivityLocked:856 
+01-16 19:39:53.158  5116  5165 E SurfaceSyncGroup: Failed to receive transaction ready in 1000ms. Marking SurfaceSyncGroup(SysUIAnimation#4) as ready
+01-16 19:39:53.162  5116  5165 E SurfaceSyncGroup: Failed to receive transaction ready in 1000ms. Marking SurfaceSyncGroup(VRI[NexusLauncherActivity]#5) as ready
+01-16 19:39:53.229  5116  5165 E SurfaceSyncGroup: Failed to receive transaction ready in 1000ms. Marking SurfaceSyncGroup(SysUIAnimation#8) as ready
+01-16 19:39:53.655   161   168 E lowmemorykiller: process_mrelease 5116 failed: No such process
+01-16 19:39:53.688   569  1069 E IPCThreadState: Binder transaction failure. id: 244539, BR_*: 29189, error: -22 (Invalid argument)
+01-16 19:39:53.711   569  1069 E WindowManager: Display reconfigured outside of a transition: Display{#0 state=ON size=1080x2340 ROTATION_0}
+01-16 19:39:53.760   415   415 E BpTransactionCompletedListener: Failed to transact (-32)
+01-16 19:39:53.882  5192  5192 E s.nexuslauncher: Not starting debugger since process cannot load the jdwp agent.
+01-16 19:39:55.075   161   169 E lowmemorykiller: process_mrelease 1035 failed: No such process
+01-16 19:39:55.337  5238  5238 E .gms.persistent: Not starting debugger since process cannot load the jdwp agent.
+01-16 19:39:55.566   569   604 E PackageManager: Optimistic bind failed.
+01-16 19:39:55.566   569   604 E PackageManager: java.util.concurrent.TimeoutException: [Optimistic Bind] Didn't bind to resolver in time!
+01-16 19:39:55.566   569   604 E PackageManager: 	at com.android.server.pm.InstantAppResolverConnection.waitForBindLocked(InstantAppResolverConnection.java:160)
+01-16 19:39:55.566   569   604 E PackageManager: 	at com.android.server.pm.InstantAppResolverConnection.bind(InstantAppResolverConnection.java:230)
+01-16 19:39:55.566   569   604 E PackageManager: 	at com.android.server.pm.InstantAppResolverConnection.lambda$optimisticBind$0(InstantAppResolverConnection.java:260)
+01-16 19:39:55.566   569   604 E PackageManager: 	at com.android.server.pm.InstantAppResolverConnection.$r8$lambda$66W2s2mMKe4pk_xXCScH9RCqav8(InstantAppResolverConnection.java:0)
+01-16 19:39:55.566   569   604 E PackageManager: 	at com.android.server.pm.InstantAppResolverConnection$$ExternalSyntheticLambda0.run(R8$$SyntheticClass:0)
+01-16 19:39:55.566   569   604 E PackageManager: 	at android.os.Handler.handleCallback(Handler.java:959)
+01-16 19:39:55.566   569   604 E PackageManager: 	at android.os.Handler.dispatchMessage(Handler.java:100)
+01-16 19:39:55.566   569   604 E PackageManager: 	at android.os.Looper.loopOnce(Looper.java:232)
+01-16 19:39:55.566   569   604 E PackageManager: 	at android.os.Looper.loop(Looper.java:317)
+01-16 19:39:55.566   569   604 E PackageManager: 	at android.os.HandlerThread.run(HandlerThread.java:85)
+01-16 19:39:55.902   569  4486 E WindowManager: Display reconfigured outside of a transition: Display{#0 state=ON size=1080x2340 ROTATION_0}
+01-16 19:39:56.223   569  2258 E WindowManager: Display reconfigured outside of a transition: Display{#0 state=ON size=1080x2340 ROTATION_0}
+01-16 19:39:56.447  5256  5256 E s.nexuslauncher: Not starting debugger since process cannot load the jdwp agent.
+01-16 19:39:56.804  5209  5260 E WindowMetricsNotification: WindowMetricsNotification.getCurrentOrEmpty():209 No window/display metrics has been notified.
+01-16 19:39:57.375   161   169 E lowmemorykiller: process_mrelease 1379 failed: No such process
+01-16 19:39:57.605  5209  5209 E GoogleInputMethodService: GoogleInputMethodService.getAppEditorInfo():2810 App EditorInfo should never be null.
+01-16 19:39:57.909  5209  5279 E HandwritingSuperpacksUtil: HandwritingSuperpacksUtil.getPackMappingPackName():40 No pack mapping pack found in []
+01-16 19:39:58.380  5209  5209 E GoogleInputMethodService: GoogleInputMethodService.getAppEditorInfo():2810 App EditorInfo should never be null.
+01-16 19:39:58.895  5209  5209 E GoogleInputMethodService: GoogleInputMethodService.getAppEditorInfo():2810 App EditorInfo should never be null.
+01-16 19:39:59.914   569  1687 E WindowManager: Display reconfigured outside of a transition: Display{#0 state=ON size=1080x2340 ROTATION_0}
+01-16 19:40:00.234  5209  5280 E HandwritingSuperpacksUtil: HandwritingSuperpacksUtil.getPackMappingPackName():40 No pack mapping pack found in []
+01-16 19:40:00.461  5360  5360 E gle.android.gms: Not starting debugger since process cannot load the jdwp agent.
+01-16 19:40:00.493   161   169 E lowmemorykiller: process_mrelease 5209 failed: No such process
+01-16 19:40:00.516   569   569 E IPCThreadState: Binder transaction failure. id: 249624, BR_*: 29189, error: -22 (Invalid argument)
+01-16 19:40:00.630  5374  5374 E ogle.android.as: Not starting debugger since process cannot load the jdwp agent.
+01-16 19:40:01.231   569  4400 E TransitionController: Set visible without transition ActivityRecord{3b60f6 u0 com.google.android.apps.nexuslauncher/.NexusLauncherActivity t152} playing=false caller=com.android.server.wm.ActivityTaskSupervisor.realStartActivityLocked:856 
+01-16 19:40:02.392   161   168 E lowmemorykiller: process_mrelease 5256 failed: No such process
+01-16 19:40:02.471   569   883 E IPCThreadState: Binder transaction failure. id: 251827, BR_*: 29189, error: -22 (Invalid argument)
+01-16 19:40:02.517   569   883 E WindowManager: Display reconfigured outside of a transition: Display{#0 state=ON size=1080x2340 ROTATION_0}
+01-16 19:40:02.593   415   415 E BpTransactionCompletedListener: Failed to transact (-32)
+01-16 19:40:02.879  5418  5418 E s.nexuslauncher: Not starting debugger since process cannot load the jdwp agent.
+01-16 19:40:03.308  5238  5313 E NanoAppLogging: Failed to begin contexthub communication
+01-16 19:40:03.715   161   169 E lowmemorykiller: process_mrelease 976 failed: No such process
+01-16 19:40:04.895   161   168 E lowmemorykiller: process_mrelease 3596 failed: No such process
+01-16 19:40:04.919  5238  5238 E NetworkScheduler: Compat called without init
+01-16 19:40:05.184   478  1891 E mediaserver: unlinkToDeath: removed reference to death recipient but unlink failed: DEAD_OBJECT
+01-16 19:40:05.184   478  1891 E IPCThreadState: attemptIncStrongHandle(3): Not supported
+01-16 19:40:05.209   415   415 E BpTransactionCompletedListener: Failed to transact (-32)
+01-16 19:40:05.210   415   415 E BpTransactionCompletedListener: Failed to transact (-32)
+01-16 19:40:05.240   812   812 E OverviewProxyService: Failed to get overview proxy for system bar attr change.
+01-16 19:40:05.260  5491  5491 E .android.as.oss: Not starting debugger since process cannot load the jdwp agent.
+01-16 19:40:05.902  5595  5595 E d.process.acore: Not starting debugger since process cannot load the jdwp agent.
+01-16 19:40:06.072  5627  5627 E gle.android.tts: Not starting debugger since process cannot load the jdwp agent.
+01-16 19:40:06.098  5638  5638 E gs.intelligence: Not starting debugger since process cannot load the jdwp agent.
+01-16 19:40:06.262  5677  5677 E .apps.wallpaper: Not starting debugger since process cannot load the jdwp agent.
+01-16 19:40:06.263  5672  5672 E earchbox:search: Not starting debugger since process cannot load the jdwp agent.
+01-16 19:40:06.419  5726  5726 E .apps.wellbeing: Not starting debugger since process cannot load the jdwp agent.
+01-16 19:40:06.628  5374  5476 E AiAiEcho: EchoSearch: SettingsFetcherImpl: DB already exists.
+01-16 19:40:06.643  5238  5473 E NetworkScheduler.TED: Unable to bind to task service: ComponentInfo{com.google.android.gms/com.google.android.gms.credential.manager.tasks.PasswordSharingSubscriptionTaskBoundService}
+01-16 19:40:06.834  5788  5788 E id.gms.unstable: Not starting debugger since process cannot load the jdwp agent.
+01-16 19:40:07.075  5238  5308 E czvx    : Phenotype API error. Event: # fozr@eb75f1ca, EventCode: COMMIT_CONFIG [CONTEXT service_id=51 ]
+01-16 19:40:07.075  5238  5308 E czvx    : czue: 29517: Malformed snapshot token for com.google.android.gms.gmscompliance.gservices:  com.google.android.gms.gmscompliance.gservices 242335000 0  com.google.android.gms.gmscompliance.gservices  0
+01-16 19:40:07.075  5238  5308 E czvx    : 	at czwc.b(:com.google.android.gms@242335038@24.23.35 (190400-646585959):926)
+01-16 19:40:07.075  5238  5308 E czvx    : 	at czwb.i(:com.google.android.gms@242335038@24.23.35 (190400-646585959):3)
+01-16 19:40:07.075  5238  5308 E czvx    : 	at czvx.h(:com.google.android.gms@242335038@24.23.35 (190400-646585959):18)
+01-16 19:40:07.075  5238  5308 E czvx    : 	at czvx.f(:com.google.android.gms@242335038@24.23.35 (190400-646585959):11)
+01-16 19:40:07.075  5238  5308 E czvx    : 	at boey.hj(:com.google.android.gms@242335038@24.23.35 (190400-646585959):1)
+01-16 19:40:07.075  5238  5308 E czvx    : 	at bofh.run(:com.google.android.gms@242335038@24.23.35 (190400-646585959):97)
+01-16 19:40:07.075  5238  5308 E czvx    : 	at emsz.run(:com.google.android.gms@242335038@24.23.35 (190400-646585959):21)
+01-16 19:40:07.075  5238  5308 E czvx    : 	at angs.c(:com.google.android.gms@242335038@24.23.35 (190400-646585959):50)
+01-16 19:40:07.075  5238  5308 E czvx    : 	at angs.run(:com.google.android.gms@242335038@24.23.35 (190400-646585959):97)
+01-16 19:40:07.075  5238  5308 E czvx    : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+01-16 19:40:07.075  5238  5308 E czvx    : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+01-16 19:40:07.075  5238  5308 E czvx    : 	at anmg.run(:com.google.android.gms@242335038@24.23.35 (190400-646585959):8)
+01-16 19:40:07.075  5238  5308 E czvx    : 	at java.lang.Thread.run(Thread.java:1012)
+01-16 19:40:07.075  5238  5308 E czvx    : Caused by: java.lang.NumberFormatException: For input string: ""
+01-16 19:40:07.075  5238  5308 E czvx    : 	at java.lang.Long.parseLong(Long.java:754)
+01-16 19:40:07.075  5238  5308 E czvx    : 	at java.lang.Long.parseLong(Long.java:869)
+01-16 19:40:07.075  5238  5308 E czvx    : 	at czwc.b(:com.google.android.gms@242335038@24.23.35 (190400-646585959):848)
+01-16 19:40:07.075  5238  5308 E czvx    : 	... 12 more
+01-16 19:40:07.218  5743  5743 E GoogleInputMethodService: GoogleInputMethodService.getAppEditorInfo():2810 App EditorInfo should never be null.
+01-16 19:40:07.240  5627  5759 E tflite  : third_party/tensorflow/lite/core/subgraph.cc:1059 tensor.data.raw != nullptr was not true.
+01-16 19:40:07.385  5743  5861 E HandwritingSuperpacksUtil: HandwritingSuperpacksUtil.getPackMappingPackName():40 No pack mapping pack found in []
+01-16 19:40:07.446  5743  5743 E GoogleInputMethodService: GoogleInputMethodService.getAppEditorInfo():2810 App EditorInfo should never be null.
+01-16 19:40:07.834  5374  5452 E SP.Service.AiAi: captions_i18n_v0_mandatory is opened by other clients. It will stay open until all clients close it.
+01-16 19:40:07.834  5374  5452 E SP.Service.AiAi: captions_i18n_v0_en-US is opened by other clients. It will stay open until all clients close it.
+01-16 19:40:07.875  5743  5861 E HandwritingSuperpacksUtil: HandwritingSuperpacksUtil.getPackMappingPackName():40 No pack mapping pack found in []
+01-16 19:40:08.019  5938  5938 E hbox:interactor: Not starting debugger since process cannot load the jdwp agent.
+01-16 19:40:08.124  5938  5964 E BrdcstRcvrMsgr: SvcConn: binder null, could not send broadcast of action
+01-16 19:40:08.230   569  1482 E TaskPersister: File error accessing recents directory (directory doesn't exist?).
+01-16 19:40:08.623  5672  5810 E Ma-Robin-Connection: (REDACTED) RPC[%s]: Failed
+01-16 19:40:08.623  5672  5810 E Ma-Robin-Connection: io.grpc.StatusException: PERMISSION_DENIED: The caller does not have permission
+01-16 19:40:08.623  5672  5810 E Ma-Robin-Connection: 	at io.grpc.f.h.a(PG:17)
+01-16 19:40:08.623  5672  5810 E Ma-Robin-Connection: 	at com.google.apps.tiktok.o.x.a(PG:4)
+01-16 19:40:08.623  5672  5810 E Ma-Robin-Connection: 	at com.google.frameworks.client.data.android.g.ah.run(PG:86)
+01-16 19:40:08.623  5672  5810 E Ma-Robin-Connection: 	at com.google.apps.tiktok.tracing.fk.run(PG:24)
+01-16 19:40:08.623  5672  5810 E Ma-Robin-Connection: 	at com.google.frameworks.client.data.android.g.s.run(PG:3)
+01-16 19:40:08.623  5672  5810 E Ma-Robin-Connection: 	at com.google.common.util.concurrent.dm.run(PG:76)
+01-16 19:40:08.623  5672  5810 E Ma-Robin-Connection: 	at com.google.common.util.concurrent.bf.execute(PG:1)
+01-16 19:40:08.623  5672  5810 E Ma-Robin-Connection: 	at com.google.frameworks.client.data.android.g.ac.execute(PG:3)
+01-16 19:40:08.623  5672  5810 E Ma-Robin-Connection: 	at com.google.common.util.concurrent.dn.execute(PG:36)
+01-16 19:40:08.623  5672  5810 E Ma-Robin-Connection: 	at com.google.frameworks.client.data.android.g.l.execute(PG:10)
+01-16 19:40:08.623  5672  5810 E Ma-Robin-Connection: 	at com.google.frameworks.client.data.android.g.aa.a(PG:10)
+01-16 19:40:08.623  5672  5810 E Ma-Robin-Connection: 	at com.google.frameworks.client.data.android.g.aj.g(PG:97)
+01-16 19:40:08.623  5672  5810 E Ma-Robin-Connection: 	at com.google.frameworks.client.data.android.g.aj.l(PG:23)
+01-16 19:40:08.623  5672  5810 E Ma-Robin-Connection: 	at com.google.frameworks.client.data.android.g.aj.a(PG:8)
+01-16 19:40:08.623  5672  5810 E Ma-Robin-Connection: 	at com.google.frameworks.client.data.android.h.c.run(PG:9)
+01-16 19:40:08.623  5672  5810 E Ma-Robin-Connection: 	at com.google.frameworks.client.data.android.h.e.e(PG:17)
+01-16 19:40:08.623  5672  5810 E Ma-Robin-Connection: 	at com.google.frameworks.client.data.android.h.e.a(PG:6)
+01-16 19:40:08.623  5672  5810 E Ma-Robin-Connection: 	at com.google.frameworks.client.data.android.g.x.run(PG:14)
+01-16 19:40:08.623  5672  5810 E Ma-Robin-Connection: 	at com.google.frameworks.client.data.android.g.s.run(PG:3)
+01-16 19:40:08.623  5672  5810 E Ma-Robin-Connection: 	at com.google.common.util.concurrent.dl.run(PG:3)
+01-16 19:40:08.623  5672  5810 E Ma-Robin-Connection: 	at com.google.common.util.concurrent.dm.run(PG:76)
+01-16 19:40:08.623  5672  5810 E Ma-Robin-Connection: 	at com.google.common.util.concurrent.bf.execute(PG:1)
+01-16 19:40:08.623  5672  5810 E Ma-Robin-Connection: 	at com.google.frameworks.client.data.android.g.ac.execute(PG:3)
+01-16 19:40:08.623  5672  5810 E Ma-Robin-Connection: 	at com.google.common.util.concurrent.dn.execute(PG:36)
+01-16 19:40:08.623  5672  5810 E Ma-Robin-Connection: 	at com.google.frameworks.client.data.android.g.l.execute(PG:10)
+01-16 19:40:08.623  5672  5810 E Ma-Robin-Connection: 	at com.google.frameworks.client.data.android.g.aa.a(PG:10)
+01-16 19:40:08.623  5672  5810 E Ma-Robin-Connection: 	at com.google.frameworks.client.data.android.g.aj.g(PG:97)
+01-16 19:40:08.623  5672  5810 E Ma-Robin-Connection: 	at com.google.frameworks.client.data.android.g.aj.l(PG:23)
+01-16 19:40:08.623  5672  5810 E Ma-Robin-Connection: 	at com.google.frameworks.client.data.android.g.aj.a(PG:8)
+01-16 19:40:08.623  5672  5810 E Ma-Robin-Connection: 	at com.google.frameworks.client.data.android.h.c.run(PG:9)
+01-16 19:40:08.623  5672  5810 E Ma-Robin-Connection: 	at com.google.frameworks.client.data.android.h.e.e(PG:17)
+01-16 19:40:08.623  5672  5810 E Ma-Robin-Connection: 	at com.google.frameworks.client.data.android.h.e.a(PG:6)
+01-16 19:40:08.623  5672  5810 E Ma-Robin-Connection: 	at com.google.frameworks.client.data.android.g.x.run(PG:14)
+01-16 19:40:08.623  5672  5810 E Ma-Robin-Connection: 	at com.google.frameworks.client.data.android.g.s.run(PG:3)
+01-16 19:40:08.623  5672  5810 E Ma-Robin-Connection: 	at com.google.common.util.concurrent.dl.run(PG:3)
+01-16 19:40:08.623  5672  5810 E Ma-Robin-Connection: 	at com.google.common.util.concurrent.dm.run(PG:76)
+01-16 19:40:08.623  5672  5810 E Ma-Robin-Connection: 	at com.google.common.util.concurrent.bf.execute(PG:1)
+01-16 19:40:08.623  5672  5810 E Ma-Robin-Connection: 	at com.google.frameworks.client.data.android.g.ac.execute(PG:3)
+01-16 19:40:08.623  5672  5810 E Ma-Robin-Connection: 	at com.google.common.util.concurrent.dn.execute(PG:36)
+01-16 19:40:08.623  5672  5810 E Ma-Robin-Connection: 	at com.google.frameworks.client.data.android.g.l.execute(PG:10)
+01-16 19:40:08.623  5672  5810 E Ma-Robin-Connection: 	at com.google.frameworks.client.data.android.g.aa.a(PG:10)
+01-16 19:40:08.623  5672  5810 E Ma-Robin-Connection: 	at com.google.frameworks.client.data.android.g.aj.g(PG:97)
+01-16 19:40:08.623  5672  5810 E Ma-Robin-Connection: 	at com.google.frameworks.client.data.android.g.aj.l(PG:23)
+01-16 19:40:08.623  5672  5810 E Ma-Robin-Connection: 	at com.google.frameworks.client.data.android.g.aj.a(PG:8)
+01-16 19:40:08.623  5672  5810 E Ma-Robin-Connection: 	at com.google.frameworks.client.data.android.h.c.run(PG:9)
+01-16 19:40:08.623  5672  5810 E Ma-Robin-Connection: 	at com.google.frameworks.client.data.android.h.e.e(PG:17)
+01-16 19:40:08.623  5672  5810 E Ma-Robin-Connection: 	at com.google.frameworks.client.data.android.h.e.a(PG:6)
+01-16 19:40:08.623  5672  5810 E Ma-Robin-Connection: 	at com.google.frameworks.client.data.android.g.x.run(PG:14)
+01-16 19:40:08.623  5672  5810 E Ma-Robin-Connection: 	at com.google.frameworks.client.data.android.g.s.run(PG:3)
+01-16 19:40:08.623  5672  5810 E Ma-Robin-Connection: 	at com.google.common.util.concurrent.dl.run(PG:3)
+01-16 19:40:08.623  5672  5810 E Ma-Robin-Connection: 	at com.google.common.util.concurrent.dm.run(PG:76)
+01-16 19:40:08.623  5672  5810 E Ma-Robin-Connection: 	at com.google.common.util.concurrent.bf.execute(PG:1)
+01-16 19:40:08.623  5672  5810 E Ma-Robin-Connection: 	at com.google.frameworks.client.data.android.g.ac.execute(PG:3)
+01-16 19:40:08.623  5672  5810 E Ma-Robin-Connection: 	at com.google.common.util.concurrent.dn.execute(PG:36)
+01-16 19:40:08.623  5672  5810 E Ma-Robin-Connection: 	at com.google.frameworks.client.data.android.g.l.execute(PG:10)
+01-16 19:40:08.623  5672  5810 E Ma-Robin-Connection: 	at com.google.frameworks.client.data.android.g.aa.a(PG:10)
+01-16 19:40:08.623  5672  5810 E Ma-Robin-Connection: 	at com.google.frameworks.client.data.android.g.aj.g(PG:97)
+01-16 19:40:08.623  5672  5810 E Ma-Robin-Connection: 	at com.google.frameworks.client.data.android.g.aj.l(PG:23)
+01-16 19:40:08.623  5672  5810 E Ma-Robin-Connection: 	at com.google.frameworks.client.data.android.g.aj.a(PG:8)
+01-16 19:40:08.623  5672  5810 E Ma-Robin-Connection: 	at com.google.frameworks.client.data.android.h.c.run(PG:9)
+01-16 19:40:08.623  5672  5810 E Ma-Robin-Connection: 	at com.google.frameworks.client.data.android.h.e.e(PG:17)
+01-16 19:40:08.623  5672  5810 E Ma-Robin-Connection: 	at com.google.frameworks.client.data.android.h.e.a(PG:6)
+01-16 19:40:08.623  5672  5810 E Ma-Robin-Connection: 	at com.google.frameworks.client.data.android.g.x.run(PG:14)
+01-16 19:40:08.623  5672  5810 E Ma-Robin-Connection: 	at com.google.frameworks.client.data.android.g.s.run(PG:3)
+01-16 19:40:08.623  5672  5810 E Ma-Robin-Connection: 	at com.google.common.util.concurrent.dl.run(PG:3)
+01-16 19:40:08.623  5672  5810 E Ma-Robin-Connection: 	at com.google.common.util.concurrent.dm.run(PG:76)
+01-16 19:40:08.623  5672  5810 E Ma-Robin-Connection: 	at com.google.common.util.concurrent.bf.execute(PG:1)
+01-16 19:40:08.623  5672  5810 E Ma-Robin-Connection: 	at com.google.frameworks.client.data.android.g.ac.execute(PG:3)
+01-16 19:40:08.623  5672  5810 E Ma-Robin-Connection: 	at com.google.common.util.concurrent.dn.execute(PG:36)
+01-16 19:40:08.623  5672  5810 E Ma-Robin-Connection: 	at com.google.frameworks.client.data.android.g.l.execute(PG:10)
+01-16 19:40:08.623  5672  5810 E Ma-Robin-Connection: 	at com.google.frameworks.client.data.android.g.aa.a(PG:10)
+01-16 19:40:08.623  5672  5810 E Ma-Robin-Connection: 	at com.google.frameworks.client.data.android.g.aj.g(PG:97)
+01-16 19:40:08.623  5672  5810 E Ma-Robin-Connection: 	at com.google.frameworks.client.data.android.g.aj.l(PG:23)
+01-16 19:40:08.623  5672  5810 E Ma-Robin-Connection: 	at com.google.frameworks.client.data.android.g.aj.a(PG:8)
+01-16 19:40:08.623  5672  5810 E Ma-Robin-Connection: 	at com.google.frameworks.client.data.android.h.c.run(PG:9)
+01-16 19:40:08.623  5672  5810 E Ma-Robin-Connection: 	at com.google.frameworks.client.data.android.h.e.e(PG:17)
+01-16 19:40:08.623  5672  5810 E Ma-Robin-Connection: 	at com.google.frameworks.client.data.android.h.e.a(PG:6)
+01-16 19:40:08.623  5672  5810 E Ma-Robin-Connection: 	at com.google.frameworks.client.data.android.g.x.run(PG:14)
+01-16 19:40:08.623  5672  5810 E Ma-Robin-Connection: 	at com.google.frameworks.client.data.android.g.s.run(PG:3)
+01-16 19:40:08.623  5672  5810 E Ma-Robin-Connection: 	at com.google.common.util.concurrent.dl.run(PG:3)
+01-16 19:40:08.623  5672  5810 E Ma-Robin-Connection: 	at com.google.common.util.concurrent.dm.run(PG:76)
+01-16 19:40:08.623  5672  5810 E Ma-Robin-Connection: 	at com.google.common.util.concurrent.bf.execute(PG:1)
+01-16 19:40:08.623  5672  5810 E Ma-Robin-Connection: 	at com.google.frameworks.client.data.android.g.ac.execute(PG:3)
+01-16 19:40:08.623  5672  5810 E Ma-Robin-Connection: 	at com.google.common.util.concurrent.dn.execute(PG:36)
+01-16 19:40:08.623  5672  5810 E Ma-Robin-Connection: 	at com.google.frameworks.client.data.android.g.l.execute(PG:10)
+01-16 19:40:08.623  5672  5810 E Ma-Robin-Connection: 	at com.google.frameworks.client.data.android.g.aa.a(PG:10)
+01-16 19:40:08.623  5672  5810 E Ma-Robin-Connection: 	at com.google.frameworks.client.data.android.g.aj.g(PG:97)
+01-16 19:40:08.623  5672  5810 E Ma-Robin-Connection: 	at com.google.frameworks.client.data.android.g.aj.l(PG:23)
+01-16 19:40:08.623  5672  5810 E Ma-Robin-Connection: 	at com.google.frameworks.client.data.android.g.aj.a(PG:8)
+01-16 19:40:08.623  5672  5810 E Ma-Robin-Connection: 	at com.google.frameworks.client.data.android.h.c.run(PG:9)
+01-16 19:40:08.623  5672  5810 E Ma-Robin-Connection: 	at com.google.apps.tiktok.tracing.fc.run(PG:13)
+01-16 19:40:08.623  5672  5810 E Ma-Robin-Connection: 	at com.google.frameworks.client.data.android.h.e.e(PG:13)
+01-16 19:40:08.623  5672  5810 E Ma-Robin-Connection: 	at com.google.frameworks.client.data.android.h.e.a(PG:6)
+01-16 19:40:08.623  5672  5810 E Ma-Robin-Connection: 	at com.google.frameworks.client.data.android.g.x.run(PG:14)
+01-16 19:40:08.623  5672  5810 E Ma-Robin-Connection: 	at com.google.frameworks.client.data.android.g.s.run(PG:3)
+01-16 19:40:08.623  5672  5810 E Ma-Robin-Connection: 	at com.google.common.util.concurrent.dl.run(PG:3)
+01-16 19:40:08.623  5672  5810 E Ma-Robin-Connection: 	at com.google.common.util.concurrent.dm.run(PG:76)
+01-16 19:40:08.623  5672  5810 E Ma-Robin-Connection: 	at com.google.common.util.concurrent.bf.execute(PG:1)
+01-16 19:40:08.623  5672  5810 E Ma-Robin-Connection: 	at com.google.frameworks.client.data.android.g.ac.execute(PG:3)
+01-16 19:40:08.623  5672  5810 E Ma-Robin-Connection: 	at com.google.common.util.concurrent.dn.execute(PG:36)
+01-16 19:40:08.623  5672  5810 E Ma-Robin-Connection: 	at com.google.frameworks.client.data.android.g.l.execute(PG:10)
+01-16 19:40:08.623  5672  5810 E Ma-Robin-Connection: 	at com.google.frameworks.client.data.android.g.aa.a(PG:10)
+01-16 19:40:08.623  5672  5810 E Ma-Robin-Connection: 	at io.grpc.e.am.a(PG:32)
+01-16 19:40:08.623  5672  5810 E Ma-Robin-Connection: 	at io.grpc.e.bh.run(PG:7)
+01-16 19:40:08.623  5672  5810 E Ma-Robin-Connection: 	at io.grpc.e.lb.run(PG:17)
+01-16 19:40:08.623  5672  5810 E Ma-Robin-Connection: 	at com.google.android.libraries.k.x.run(PG:3)
+01-16 19:40:08.623  5672  5810 E Ma-Robin-Connection: 	at com.google.common.n.c.c.run(PG:50)
+01-16 19:40:08.623  5672  5810 E Ma-Robin-Connection: 	at com.google.android.libraries.k.e.run(PG:8)
+01-16 19:40:08.623  5672  5810 E Ma-Robin-Connection: 	at java.lang.Thread.run(Thread.java:1012)
+01-16 19:40:08.623  5672  5810 E Ma-Robin-Connection: 	at com.google.android.libraries.k.d.b.run(PG:74)
+01-16 19:40:29.760  5238  5238 E WearableService: PackageRecordCache: appContext was already set bbpj@ccb24a6 -> bbpj@60d5ee7

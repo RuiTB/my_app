@@ -1,0 +1,339 @@
+--------- beginning of main
+01-16 19:47:58.328  5238  5238 E ChimeraSrvcProxy: Proxy without impl failing onBind()
+01-16 19:47:59.201  5238  5238 E ChimeraSrvcProxy: Proxy without impl failing onBind()
+01-16 19:48:00.764  5238  5238 E ChimeraSrvcProxy: Proxy without impl failing onBind()
+01-16 19:48:03.442  5238  5238 E ChimeraSrvcProxy: Proxy without impl failing onBind()
+01-16 19:48:04.123  6236  6236 E ndroid.settings: Not starting debugger since process cannot load the jdwp agent.
+01-16 19:48:04.306  6236  6236 E Settings: Unable to find info for package: null
+01-16 19:48:04.334  6260  6260 E .android.chrome: Not starting debugger since process cannot load the jdwp agent.
+01-16 19:48:04.357  6236  6261 E DataProcessor: abnormal entry list in the timestamp:Jan 12, 2026, 08:00:00
+01-16 19:48:04.357  6236  6261 E DataProcessor: abnormal entry list in the timestamp:Jan 12, 2026, 09:00:00
+01-16 19:48:04.357  6236  6261 E DataProcessor: abnormal entry list in the timestamp:Jan 12, 2026, 13:00:00
+01-16 19:48:04.357  6236  6261 E DataProcessor: abnormal entry list in the timestamp:Jan 12, 2026, 14:00:00
+01-16 19:48:04.358  6236  6261 E DataProcessor: abnormal entry list in the timestamp:Jan 12, 2026, 15:00:00
+01-16 19:48:04.358  6236  6261 E DataProcessor: abnormal entry list in the timestamp:Jan 12, 2026, 16:00:00
+01-16 19:48:04.358  6236  6261 E DataProcessor: abnormal entry list in the timestamp:Jan 12, 2026, 17:00:00
+01-16 19:48:04.361  6236  6261 E DataProcessor: abnormal entry list in the timestamp:Jan 12, 2026, 18:00:00
+01-16 19:48:04.361  6236  6261 E DataProcessor: abnormal entry list in the timestamp:Jan 12, 2026, 19:00:00
+01-16 19:48:04.362  6236  6261 E DataProcessor: abnormal entry list in the timestamp:Jan 12, 2026, 20:00:00
+01-16 19:48:04.362  6236  6261 E DataProcessor: abnormal entry list in the timestamp:Jan 12, 2026, 21:00:00
+01-16 19:48:04.362  6236  6261 E DataProcessor: abnormal entry list in the timestamp:Jan 13, 2026, 01:00:00
+01-16 19:48:04.362  6236  6261 E DataProcessor: abnormal entry list in the timestamp:Jan 13, 2026, 02:00:00
+01-16 19:48:04.363  6236  6261 E DataProcessor: abnormal entry list in the timestamp:Jan 14, 2026, 01:00:00
+01-16 19:48:04.363  6236  6261 E DataProcessor: abnormal entry list in the timestamp:Jan 14, 2026, 02:00:00
+01-16 19:48:04.363  6236  6261 E DataProcessor: abnormal entry list in the timestamp:Jan 14, 2026, 03:00:00
+01-16 19:48:04.364  6236  6261 E DataProcessor: abnormal entry list in the timestamp:Jan 14, 2026, 04:00:00
+01-16 19:48:04.364  6236  6261 E DataProcessor: abnormal entry list in the timestamp:Jan 14, 2026, 05:00:00
+01-16 19:48:04.365  6236  6261 E DataProcessor: abnormal entry list in the timestamp:Jan 14, 2026, 06:00:00
+01-16 19:48:04.365  6236  6261 E DataProcessor: abnormal entry list in the timestamp:Jan 14, 2026, 07:00:00
+01-16 19:48:04.365  6236  6261 E DataProcessor: abnormal entry list in the timestamp:Jan 14, 2026, 08:00:00
+01-16 19:48:04.365  6236  6261 E DataProcessor: abnormal entry list in the timestamp:Jan 14, 2026, 09:00:00
+01-16 19:48:04.365  6236  6261 E DataProcessor: abnormal entry list in the timestamp:Jan 14, 2026, 10:00:00
+01-16 19:48:04.366  6236  6261 E DataProcessor: abnormal entry list in the timestamp:Jan 14, 2026, 11:00:00
+01-16 19:48:04.366  6236  6261 E DataProcessor: abnormal entry list in the timestamp:Jan 14, 2026, 12:00:00
+01-16 19:48:04.366  6236  6261 E DataProcessor: abnormal entry list in the timestamp:Jan 14, 2026, 13:00:00
+01-16 19:48:04.366  6236  6261 E DataProcessor: abnormal entry list in the timestamp:Jan 14, 2026, 14:00:00
+01-16 19:48:04.367  6236  6261 E DataProcessor: abnormal entry list in the timestamp:Jan 14, 2026, 15:00:00
+01-16 19:48:04.367  6236  6261 E DataProcessor: abnormal entry list in the timestamp:Jan 14, 2026, 16:00:00
+01-16 19:48:04.367  6236  6261 E DataProcessor: abnormal entry list in the timestamp:Jan 14, 2026, 17:00:00
+01-16 19:48:04.368  6236  6261 E DataProcessor: abnormal entry list in the timestamp:Jan 14, 2026, 18:00:00
+01-16 19:48:04.368  6236  6261 E DataProcessor: abnormal entry list in the timestamp:Jan 14, 2026, 19:00:00
+01-16 19:48:04.368  6236  6261 E DataProcessor: abnormal entry list in the timestamp:Jan 14, 2026, 20:00:00
+01-16 19:48:04.368  6236  6261 E DataProcessor: abnormal entry list in the timestamp:Jan 14, 2026, 21:00:00
+01-16 19:48:04.369  6236  6261 E DataProcessor: abnormal entry list in the timestamp:Jan 14, 2026, 22:00:00
+01-16 19:48:04.369  6236  6261 E DataProcessor: abnormal entry list in the timestamp:Jan 14, 2026, 23:00:00
+01-16 19:48:04.370  6236  6261 E DataProcessor: abnormal entry list in the timestamp:Jan 15, 2026, 01:00:00
+01-16 19:48:04.372  6236  6261 E DataProcessor: abnormal entry list in the timestamp:Jan 15, 2026, 02:00:00
+01-16 19:48:04.372  6236  6261 E DataProcessor: abnormal entry list in the timestamp:Jan 15, 2026, 03:00:00
+01-16 19:48:04.372  6236  6261 E DataProcessor: abnormal entry list in the timestamp:Jan 15, 2026, 04:00:00
+01-16 19:48:04.372  6236  6261 E DataProcessor: abnormal entry list in the timestamp:Jan 15, 2026, 05:00:00
+01-16 19:48:04.372  6236  6261 E DataProcessor: abnormal entry list in the timestamp:Jan 15, 2026, 06:00:00
+01-16 19:48:04.372  6236  6261 E DataProcessor: abnormal entry list in the timestamp:Jan 15, 2026, 07:00:00
+01-16 19:48:04.372  6236  6261 E DataProcessor: abnormal entry list in the timestamp:Jan 15, 2026, 08:00:00
+01-16 19:48:04.372  6236  6261 E DataProcessor: abnormal entry list in the timestamp:Jan 15, 2026, 09:00:00
+01-16 19:48:04.372  6236  6261 E DataProcessor: abnormal entry list in the timestamp:Jan 15, 2026, 19:00:00
+01-16 19:48:04.372  6236  6261 E DataProcessor: abnormal entry list in the timestamp:Jan 15, 2026, 20:00:00
+01-16 19:48:04.372  6236  6261 E DataProcessor: abnormal entry list in the timestamp:Jan 15, 2026, 21:00:00
+01-16 19:48:04.373  6236  6261 E DataProcessor: abnormal entry list in the timestamp:Jan 15, 2026, 22:00:00
+01-16 19:48:04.373  6236  6261 E DataProcessor: abnormal entry list in the timestamp:Jan 15, 2026, 23:00:00
+01-16 19:48:04.373  6236  6261 E DataProcessor: abnormal entry list in the timestamp:Jan 16, 2026, 00:00:00
+01-16 19:48:04.373  6236  6261 E DataProcessor: abnormal entry list in the timestamp:Jan 16, 2026, 01:00:00
+01-16 19:48:04.373  6236  6261 E DataProcessor: abnormal entry list in the timestamp:Jan 16, 2026, 02:00:00
+01-16 19:48:04.373  6236  6261 E DataProcessor: abnormal entry list in the timestamp:Jan 16, 2026, 03:00:00
+01-16 19:48:04.373  6236  6261 E DataProcessor: abnormal entry list in the timestamp:Jan 16, 2026, 04:00:00
+01-16 19:48:04.373  6236  6261 E DataProcessor: abnormal entry list in the timestamp:Jan 16, 2026, 05:00:00
+01-16 19:48:04.373  6236  6261 E DataProcessor: abnormal entry list in the timestamp:Jan 16, 2026, 06:00:00
+01-16 19:48:04.373  6236  6261 E DataProcessor: abnormal entry list in the timestamp:Jan 16, 2026, 07:00:00
+01-16 19:48:04.373  6236  6261 E DataProcessor: abnormal entry list in the timestamp:Jan 16, 2026, 08:00:00
+01-16 19:48:04.373  6236  6261 E DataProcessor: abnormal entry list in the timestamp:Jan 16, 2026, 09:00:00
+01-16 19:48:04.373  6236  6261 E DataProcessor: abnormal entry list in the timestamp:Jan 16, 2026, 10:00:00
+01-16 19:48:04.373  6236  6261 E DataProcessor: abnormal entry list in the timestamp:Jan 16, 2026, 11:00:00
+01-16 19:48:04.373  6236  6261 E DataProcessor: abnormal entry list in the timestamp:Jan 16, 2026, 12:00:00
+01-16 19:48:04.373  6236  6261 E DataProcessor: abnormal entry list in the timestamp:Jan 16, 2026, 13:00:00
+01-16 19:48:04.373  6236  6261 E DataProcessor: abnormal entry list in the timestamp:Jan 16, 2026, 14:00:00
+01-16 19:48:04.373  6236  6261 E DataProcessor: abnormal entry list in the timestamp:Jan 16, 2026, 15:00:00
+01-16 19:48:04.374  6236  6261 E DataProcessor: abnormal entry list in the timestamp:Jan 16, 2026, 16:00:00
+01-16 19:48:04.374  6236  6261 E DataProcessor: abnormal entry list in the timestamp:Jan 16, 2026, 17:00:00
+01-16 19:48:04.374  6236  6261 E DataProcessor: abnormal entry list in the timestamp:Jan 16, 2026, 18:00:00
+01-16 19:48:04.376  6236  6261 E DataProcessor: abnormal entry list in the timestamp:Jan 16, 2026, 19:00:00
+01-16 19:48:04.771  6236  6309 E DataProcessor: abnormal entry list in the timestamp:Jan 12, 2026, 08:00:00
+01-16 19:48:04.771  6236  6309 E DataProcessor: abnormal entry list in the timestamp:Jan 12, 2026, 09:00:00
+01-16 19:48:04.772  6236  6309 E DataProcessor: abnormal entry list in the timestamp:Jan 12, 2026, 13:00:00
+01-16 19:48:04.772  6236  6309 E DataProcessor: abnormal entry list in the timestamp:Jan 12, 2026, 14:00:00
+01-16 19:48:04.772  6236  6309 E DataProcessor: abnormal entry list in the timestamp:Jan 12, 2026, 15:00:00
+01-16 19:48:04.772  6236  6309 E DataProcessor: abnormal entry list in the timestamp:Jan 12, 2026, 16:00:00
+01-16 19:48:04.772  6236  6309 E DataProcessor: abnormal entry list in the timestamp:Jan 12, 2026, 17:00:00
+01-16 19:48:04.772  6236  6309 E DataProcessor: abnormal entry list in the timestamp:Jan 12, 2026, 18:00:00
+01-16 19:48:04.772  6236  6309 E DataProcessor: abnormal entry list in the timestamp:Jan 12, 2026, 19:00:00
+01-16 19:48:04.773  6236  6309 E DataProcessor: abnormal entry list in the timestamp:Jan 12, 2026, 20:00:00
+01-16 19:48:04.773  6236  6309 E DataProcessor: abnormal entry list in the timestamp:Jan 12, 2026, 21:00:00
+01-16 19:48:04.773  6236  6309 E DataProcessor: abnormal entry list in the timestamp:Jan 13, 2026, 01:00:00
+01-16 19:48:04.773  6236  6309 E DataProcessor: abnormal entry list in the timestamp:Jan 13, 2026, 02:00:00
+01-16 19:48:04.773  6236  6309 E DataProcessor: abnormal entry list in the timestamp:Jan 14, 2026, 01:00:00
+01-16 19:48:04.773  6236  6309 E DataProcessor: abnormal entry list in the timestamp:Jan 14, 2026, 02:00:00
+01-16 19:48:04.773  6236  6309 E DataProcessor: abnormal entry list in the timestamp:Jan 14, 2026, 03:00:00
+01-16 19:48:04.773  6236  6309 E DataProcessor: abnormal entry list in the timestamp:Jan 14, 2026, 04:00:00
+01-16 19:48:04.773  6236  6309 E DataProcessor: abnormal entry list in the timestamp:Jan 14, 2026, 05:00:00
+01-16 19:48:04.773  6236  6309 E DataProcessor: abnormal entry list in the timestamp:Jan 14, 2026, 06:00:00
+01-16 19:48:04.774  6236  6309 E DataProcessor: abnormal entry list in the timestamp:Jan 14, 2026, 07:00:00
+01-16 19:48:04.774  6236  6309 E DataProcessor: abnormal entry list in the timestamp:Jan 14, 2026, 08:00:00
+01-16 19:48:04.774  6236  6309 E DataProcessor: abnormal entry list in the timestamp:Jan 14, 2026, 09:00:00
+01-16 19:48:04.774  6236  6309 E DataProcessor: abnormal entry list in the timestamp:Jan 14, 2026, 10:00:00
+01-16 19:48:04.774  6236  6309 E DataProcessor: abnormal entry list in the timestamp:Jan 14, 2026, 11:00:00
+01-16 19:48:04.774  6236  6309 E DataProcessor: abnormal entry list in the timestamp:Jan 14, 2026, 12:00:00
+01-16 19:48:04.774  6236  6309 E DataProcessor: abnormal entry list in the timestamp:Jan 14, 2026, 13:00:00
+01-16 19:48:04.774  6236  6309 E DataProcessor: abnormal entry list in the timestamp:Jan 14, 2026, 14:00:00
+01-16 19:48:04.774  6236  6309 E DataProcessor: abnormal entry list in the timestamp:Jan 14, 2026, 15:00:00
+01-16 19:48:04.774  6236  6309 E DataProcessor: abnormal entry list in the timestamp:Jan 14, 2026, 16:00:00
+01-16 19:48:04.774  6236  6309 E DataProcessor: abnormal entry list in the timestamp:Jan 14, 2026, 17:00:00
+01-16 19:48:04.774  6236  6309 E DataProcessor: abnormal entry list in the timestamp:Jan 14, 2026, 18:00:00
+01-16 19:48:04.774  6236  6309 E DataProcessor: abnormal entry list in the timestamp:Jan 14, 2026, 19:00:00
+01-16 19:48:04.774  6236  6309 E DataProcessor: abnormal entry list in the timestamp:Jan 14, 2026, 20:00:00
+01-16 19:48:04.774  6236  6309 E DataProcessor: abnormal entry list in the timestamp:Jan 14, 2026, 21:00:00
+01-16 19:48:04.774  6236  6309 E DataProcessor: abnormal entry list in the timestamp:Jan 14, 2026, 22:00:00
+01-16 19:48:04.774  6236  6309 E DataProcessor: abnormal entry list in the timestamp:Jan 14, 2026, 23:00:00
+01-16 19:48:04.774  6236  6309 E DataProcessor: abnormal entry list in the timestamp:Jan 15, 2026, 01:00:00
+01-16 19:48:04.774  6236  6309 E DataProcessor: abnormal entry list in the timestamp:Jan 15, 2026, 02:00:00
+01-16 19:48:04.774  6236  6309 E DataProcessor: abnormal entry list in the timestamp:Jan 15, 2026, 03:00:00
+01-16 19:48:04.774  6236  6309 E DataProcessor: abnormal entry list in the timestamp:Jan 15, 2026, 04:00:00
+01-16 19:48:04.774  6236  6309 E DataProcessor: abnormal entry list in the timestamp:Jan 15, 2026, 05:00:00
+01-16 19:48:04.775  6236  6309 E DataProcessor: abnormal entry list in the timestamp:Jan 15, 2026, 06:00:00
+01-16 19:48:04.775  6236  6309 E DataProcessor: abnormal entry list in the timestamp:Jan 15, 2026, 07:00:00
+01-16 19:48:04.775  6236  6309 E DataProcessor: abnormal entry list in the timestamp:Jan 15, 2026, 08:00:00
+01-16 19:48:04.775  6236  6309 E DataProcessor: abnormal entry list in the timestamp:Jan 15, 2026, 09:00:00
+01-16 19:48:04.775  6236  6309 E DataProcessor: abnormal entry list in the timestamp:Jan 15, 2026, 19:00:00
+01-16 19:48:04.775  6236  6309 E DataProcessor: abnormal entry list in the timestamp:Jan 15, 2026, 20:00:00
+01-16 19:48:04.775  6236  6309 E DataProcessor: abnormal entry list in the timestamp:Jan 15, 2026, 21:00:00
+01-16 19:48:04.776  6236  6309 E DataProcessor: abnormal entry list in the timestamp:Jan 15, 2026, 22:00:00
+01-16 19:48:04.776  6236  6309 E DataProcessor: abnormal entry list in the timestamp:Jan 15, 2026, 23:00:00
+01-16 19:48:04.776  6236  6309 E DataProcessor: abnormal entry list in the timestamp:Jan 16, 2026, 00:00:00
+01-16 19:48:04.776  6236  6309 E DataProcessor: abnormal entry list in the timestamp:Jan 16, 2026, 01:00:00
+01-16 19:48:04.776  6236  6309 E DataProcessor: abnormal entry list in the timestamp:Jan 16, 2026, 02:00:00
+01-16 19:48:04.776  6236  6309 E DataProcessor: abnormal entry list in the timestamp:Jan 16, 2026, 03:00:00
+01-16 19:48:04.776  6236  6309 E DataProcessor: abnormal entry list in the timestamp:Jan 16, 2026, 04:00:00
+01-16 19:48:04.776  6236  6309 E DataProcessor: abnormal entry list in the timestamp:Jan 16, 2026, 05:00:00
+01-16 19:48:04.776  6236  6309 E DataProcessor: abnormal entry list in the timestamp:Jan 16, 2026, 06:00:00
+01-16 19:48:04.776  6236  6309 E DataProcessor: abnormal entry list in the timestamp:Jan 16, 2026, 07:00:00
+01-16 19:48:04.776  6236  6309 E DataProcessor: abnormal entry list in the timestamp:Jan 16, 2026, 08:00:00
+01-16 19:48:04.776  6236  6309 E DataProcessor: abnormal entry list in the timestamp:Jan 16, 2026, 09:00:00
+01-16 19:48:04.776  6236  6309 E DataProcessor: abnormal entry list in the timestamp:Jan 16, 2026, 10:00:00
+01-16 19:48:04.776  6236  6309 E DataProcessor: abnormal entry list in the timestamp:Jan 16, 2026, 11:00:00
+01-16 19:48:04.776  6236  6309 E DataProcessor: abnormal entry list in the timestamp:Jan 16, 2026, 12:00:00
+01-16 19:48:04.776  6236  6309 E DataProcessor: abnormal entry list in the timestamp:Jan 16, 2026, 13:00:00
+01-16 19:48:04.776  6236  6309 E DataProcessor: abnormal entry list in the timestamp:Jan 16, 2026, 14:00:00
+01-16 19:48:04.776  6236  6309 E DataProcessor: abnormal entry list in the timestamp:Jan 16, 2026, 15:00:00
+01-16 19:48:04.776  6236  6309 E DataProcessor: abnormal entry list in the timestamp:Jan 16, 2026, 16:00:00
+01-16 19:48:04.776  6236  6309 E DataProcessor: abnormal entry list in the timestamp:Jan 16, 2026, 17:00:00
+01-16 19:48:04.777  6236  6309 E DataProcessor: abnormal entry list in the timestamp:Jan 16, 2026, 18:00:00
+01-16 19:48:04.777  6236  6309 E DataProcessor: abnormal entry list in the timestamp:Jan 16, 2026, 19:00:00
+01-16 19:48:04.902  6336  6336 E ssioncontroller: Not starting debugger since process cannot load the jdwp agent.
+01-16 19:48:05.136  6360  6360 E .adservices.api: Not starting debugger since process cannot load the jdwp agent.
+01-16 19:48:05.328  5238  5358 E czvx    : Phenotype API error. Event: # fozr@befe094a, EventCode: GET_EXP [CONTEXT service_id=51 ]
+01-16 19:48:05.328  5238  5358 E czvx    : czue: 29505: No config packages for log source, or config package not registered
+01-16 19:48:05.328  5238  5358 E czvx    : 	at czwt.c(:com.google.android.gms@242335038@24.23.35 (190400-646585959):79)
+01-16 19:48:05.328  5238  5358 E czvx    : 	at czwr.i(:com.google.android.gms@242335038@24.23.35 (190400-646585959):3)
+01-16 19:48:05.328  5238  5358 E czvx    : 	at czvx.h(:com.google.android.gms@242335038@24.23.35 (190400-646585959):18)
+01-16 19:48:05.328  5238  5358 E czvx    : 	at czvx.f(:com.google.android.gms@242335038@24.23.35 (190400-646585959):11)
+01-16 19:48:05.328  5238  5358 E czvx    : 	at boey.hj(:com.google.android.gms@242335038@24.23.35 (190400-646585959):1)
+01-16 19:48:05.328  5238  5358 E czvx    : 	at bofh.run(:com.google.android.gms@242335038@24.23.35 (190400-646585959):97)
+01-16 19:48:05.328  5238  5358 E czvx    : 	at emsz.run(:com.google.android.gms@242335038@24.23.35 (190400-646585959):21)
+01-16 19:48:05.328  5238  5358 E czvx    : 	at angs.c(:com.google.android.gms@242335038@24.23.35 (190400-646585959):50)
+01-16 19:48:05.328  5238  5358 E czvx    : 	at angs.run(:com.google.android.gms@242335038@24.23.35 (190400-646585959):97)
+01-16 19:48:05.328  5238  5358 E czvx    : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+01-16 19:48:05.328  5238  5358 E czvx    : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+01-16 19:48:05.328  5238  5358 E czvx    : 	at anmg.run(:com.google.android.gms@242335038@24.23.35 (190400-646585959):8)
+01-16 19:48:05.328  5238  5358 E czvx    : 	at java.lang.Thread.run(Thread.java:1012)
+01-16 19:48:05.423  6360  6393 E adservices.measurement: Consent notification has not been displayed.
+01-16 19:48:05.616  6396  6396 E ackageinstaller: Not starting debugger since process cannot load the jdwp agent.
+--------- beginning of system
+01-16 19:48:06.687   569  1482 E TaskPersister: File error accessing recents directory (directory doesn't exist?).
+01-16 19:48:06.697   569   730 E AppOps  : attributionTag VCN not declared in manifest of android
+01-16 19:48:06.711   945   945 E SmsApplication: com.google.android.apps.messaging lost android:read_cell_broadcasts:  (fixing)
+01-16 19:48:06.720  6422  6422 E ndroid.keychain: Not starting debugger since process cannot load the jdwp agent.
+01-16 19:48:06.820   569  2263 E RoleControllerServiceImpl: Default/fallback role holder package doesn't qualify for the role, package: com.google.android.gms.supervision, role: android.app.role.SYSTEM_SUPERVISION
+01-16 19:48:06.824   945   945 E CellBroadcastUtils: getDefaultCellBroadcastReceiverPackageName: no package found
+01-16 19:48:06.844   569  2263 E RoleControllerServiceImpl: Default/fallback role holder package doesn't qualify for the role, package: com.google.android.gms, role: android.app.role.WALLET
+01-16 19:48:06.853   569  2263 E RoleControllerServiceImpl: Default/fallback role holder package doesn't qualify for the role, package: com.google.android.devicelockcontroller, role: android.app.role.SYSTEM_FINANCED_DEVICE_CONTROLLER
+01-16 19:48:06.881  6444  6444 E id.ext.services: Not starting debugger since process cannot load the jdwp agent.
+01-16 19:48:06.942  6465  6465 E oid.documentsui: Not starting debugger since process cannot load the jdwp agent.
+01-16 19:48:07.091  6503  6503 E externalstorage: Not starting debugger since process cannot load the jdwp agent.
+01-16 19:48:07.115  6515  6515 E d.process.media: Not starting debugger since process cannot load the jdwp agent.
+01-16 19:48:07.233  6533  6533 E droid.apps.docs: Not starting debugger since process cannot load the jdwp agent.
+01-16 19:48:07.246   569   660 E JobScheduler.Quota: <0>com.google.android.apps.docs has 0 EJ quota without running anything
+01-16 19:48:07.248   569   660 E JobScheduler.Quota: <0>com.google.android.apps.docs has 0 EJ quota without running anything
+01-16 19:48:07.291  5360  5457 E WorkSourceUtil: Could not find package: com.ruitb.test.my_app.dev
+01-16 19:48:07.465  6533  6567 E DocsApplication: from onCreate Completable for sending summary about blocked SyncRequests
+01-16 19:48:07.465  6533  6567 E DocsApplication: java.lang.IllegalStateException
+01-16 19:48:07.465  6533  6567 E DocsApplication: 	at flf.i(PG:64)
+01-16 19:48:07.465  6533  6567 E DocsApplication: 	at eyt.lambda$onCreate$3$com-google-android-apps-docs-DocsApplication(PG:279)
+01-16 19:48:07.465  6533  6567 E DocsApplication: 	at eyq.run(PG:208)
+01-16 19:48:07.465  6533  6567 E DocsApplication: 	at uqj.fw(PG:13)
+01-16 19:48:07.465  6533  6567 E DocsApplication: 	at unt.d(PG:3)
+01-16 19:48:07.465  6533  6567 E DocsApplication: 	at uqs$a.run(PG:3)
+01-16 19:48:07.465  6533  6567 E DocsApplication: 	at uoe$a.run(PG:10)
+01-16 19:48:07.465  6533  6567 E DocsApplication: 	at uuu.run(PG:14)
+01-16 19:48:07.465  6533  6567 E DocsApplication: 	at uuu.call(PG:1)
+01-16 19:48:07.465  6533  6567 E DocsApplication: 	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+01-16 19:48:07.465  6533  6567 E DocsApplication: 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:307)
+01-16 19:48:07.465  6533  6567 E DocsApplication: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+01-16 19:48:07.465  6533  6567 E DocsApplication: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+01-16 19:48:07.465  6533  6567 E DocsApplication: 	at java.lang.Thread.run(Thread.java:1012)
+01-16 19:48:08.447   945   945 E SmsApplication: com.google.android.apps.messaging lost android:read_cell_broadcasts:  (fixing)
+01-16 19:48:08.449   569   769 E system_server: No package ID 7f found for resource ID 0x7f080323.
+01-16 19:48:08.449   569   769 E system_server: No package ID 7f found for resource ID 0x7f13069a.
+01-16 19:48:08.449   569   769 E system_server: No package ID 7f found for resource ID 0x7f13069a.
+01-16 19:48:08.449   569   769 E system_server: No package ID 7f found for resource ID 0x7f08031f.
+01-16 19:48:08.449   569   769 E system_server: No package ID 7f found for resource ID 0x7f130698.
+01-16 19:48:08.449   569   769 E system_server: No package ID 7f found for resource ID 0x7f130698.
+01-16 19:48:08.449   569   769 E system_server: No package ID 7f found for resource ID 0x7f080321.
+01-16 19:48:08.449   569   769 E system_server: No package ID 7f found for resource ID 0x7f130699.
+01-16 19:48:08.449   569   769 E system_server: No package ID 7f found for resource ID 0x7f130699.
+01-16 19:48:08.450   569   769 E ShortcutService: Ignoring excessive intent tag.
+01-16 19:48:08.456   945   945 E CellBroadcastUtils: getDefaultCellBroadcastReceiverPackageName: no package found
+01-16 19:48:09.934   569  1482 E TaskPersister: File error accessing recents directory (directory doesn't exist?).
+01-16 19:48:11.609   569  4453 E ActivityTaskManager: Could not find activity for task 154
+01-16 19:48:12.548   569  1482 E TaskPersister: File error accessing recents directory (directory doesn't exist?).
+01-16 19:48:24.313  6607  6607 E d.configupdater: Not starting debugger since process cannot load the jdwp agent.
+01-16 19:48:24.726  5360  6488 E gclu    : *~*~*~ Previous channel {0} was garbage collected without being shut down! ~*~*~*
+01-16 19:48:24.726  5360  6488 E gclu    :     Make sure to call shutdown()/shutdownNow()
+01-16 19:48:24.726  5360  6488 E gclu    : java.lang.RuntimeException: ManagedChannel allocation site
+01-16 19:48:24.726  5360  6488 E gclu    : 	at gclt.<init>(:com.google.android.gms@242335038@24.23.35 (190400-646585959):21)
+01-16 19:48:24.726  5360  6488 E gclu    : 	at gclu.<init>(:com.google.android.gms@242335038@24.23.35 (190400-646585959):10)
+01-16 19:48:24.726  5360  6488 E gclu    : 	at gcls.a(:com.google.android.gms@242335038@24.23.35 (190400-646585959):244)
+01-16 19:48:24.726  5360  6488 E gclu    : 	at gbvj.a(:com.google.android.gms@242335038@24.23.35 (190400-646585959):5)
+01-16 19:48:24.726  5360  6488 E gclu    : 	at ewrn.a(:com.google.android.gms@242335038@24.23.35 (190400-646585959):173)
+01-16 19:48:24.726  5360  6488 E gclu    : 	at emsu.a(:com.google.android.gms@242335038@24.23.35 (190400-646585959):13)
+01-16 19:48:24.726  5360  6488 E gclu    : 	at etzu.a(:com.google.android.gms@242335038@24.23.35 (190400-646585959):3)
+01-16 19:48:24.726  5360  6488 E gclu    : 	at etyv.run(:com.google.android.gms@242335038@24.23.35 (190400-646585959):21)
+01-16 19:48:24.726  5360  6488 E gclu    : 	at etzw.run(:com.google.android.gms@242335038@24.23.35 (190400-646585959):5)
+01-16 19:48:24.726  5360  6488 E gclu    : 	at angs.c(:com.google.android.gms@242335038@24.23.35 (190400-646585959):50)
+01-16 19:48:24.726  5360  6488 E gclu    : 	at angs.run(:com.google.android.gms@242335038@24.23.35 (190400-646585959):76)
+01-16 19:48:24.726  5360  6488 E gclu    : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+01-16 19:48:24.726  5360  6488 E gclu    : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+01-16 19:48:24.726  5360  6488 E gclu    : 	at anmg.run(:com.google.android.gms@242335038@24.23.35 (190400-646585959):8)
+01-16 19:48:24.726  5360  6488 E gclu    : 	at java.lang.Thread.run(Thread.java:1012)
+01-16 19:48:24.726  5360  6488 E gclu    : *~*~*~ Previous channel {0} was garbage collected without being shut down! ~*~*~*
+01-16 19:48:24.726  5360  6488 E gclu    :     Make sure to call shutdown()/shutdownNow()
+01-16 19:48:24.726  5360  6488 E gclu    : java.lang.RuntimeException: ManagedChannel allocation site
+01-16 19:48:24.726  5360  6488 E gclu    : 	at gclt.<init>(:com.google.android.gms@242335038@24.23.35 (190400-646585959):21)
+01-16 19:48:24.726  5360  6488 E gclu    : 	at gclu.<init>(:com.google.android.gms@242335038@24.23.35 (190400-646585959):10)
+01-16 19:48:24.726  5360  6488 E gclu    : 	at gcls.a(:com.google.android.gms@242335038@24.23.35 (190400-646585959):244)
+01-16 19:48:24.726  5360  6488 E gclu    : 	at gbvj.a(:com.google.android.gms@242335038@24.23.35 (190400-646585959):5)
+01-16 19:48:24.726  5360  6488 E gclu    : 	at ewrn.a(:com.google.android.gms@242335038@24.23.35 (190400-646585959):173)
+01-16 19:48:24.726  5360  6488 E gclu    : 	at emsu.a(:com.google.android.gms@242335038@24.23.35 (190400-646585959):13)
+01-16 19:48:24.726  5360  6488 E gclu    : 	at etzu.a(:com.google.android.gms@242335038@24.23.35 (190400-646585959):3)
+01-16 19:48:24.726  5360  6488 E gclu    : 	at etyv.run(:com.google.android.gms@242335038@24.23.35 (190400-646585959):21)
+01-16 19:48:24.726  5360  6488 E gclu    : 	at etzw.run(:com.google.android.gms@242335038@24.23.35 (190400-646585959):5)
+01-16 19:48:24.726  5360  6488 E gclu    : 	at angs.c(:com.google.android.gms@242335038@24.23.35 (190400-646585959):50)
+01-16 19:48:24.726  5360  6488 E gclu    : 	at angs.run(:com.google.android.gms@242335038@24.23.35 (190400-646585959):76)
+01-16 19:48:24.726  5360  6488 E gclu    : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+01-16 19:48:24.726  5360  6488 E gclu    : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+01-16 19:48:24.726  5360  6488 E gclu    : 	at anmg.run(:com.google.android.gms@242335038@24.23.35 (190400-646585959):8)
+01-16 19:48:24.726  5360  6488 E gclu    : 	at java.lang.Thread.run(Thread.java:1012)
+01-16 19:48:30.520   569   644 E SystemServiceRegistry: No service published for: persistent_data_block
+01-16 19:48:30.520   569   644 E SystemServiceRegistry: android.os.ServiceManager$ServiceNotFoundException: No service published for: persistent_data_block
+01-16 19:48:30.520   569   644 E SystemServiceRegistry: 	at android.os.ServiceManager.getServiceOrThrow(ServiceManager.java:203)
+01-16 19:48:30.520   569   644 E SystemServiceRegistry: 	at android.app.SystemServiceRegistry$81.createService(SystemServiceRegistry.java:1071)
+01-16 19:48:30.520   569   644 E SystemServiceRegistry: 	at android.app.SystemServiceRegistry$81.createService(SystemServiceRegistry.java:1068)
+01-16 19:48:30.520   569   644 E SystemServiceRegistry: 	at android.app.SystemServiceRegistry$StaticServiceFetcher.getService(SystemServiceRegistry.java:2293)
+01-16 19:48:30.520   569   644 E SystemServiceRegistry: 	at android.app.SystemServiceRegistry.getSystemService(SystemServiceRegistry.java:1812)
+01-16 19:48:30.520   569   644 E SystemServiceRegistry: 	at android.app.ContextImpl.getSystemService(ContextImpl.java:2241)
+01-16 19:48:30.520   569   644 E SystemServiceRegistry: 	at android.content.Context.getSystemService(Context.java:4503)
+01-16 19:48:30.520   569   644 E SystemServiceRegistry: 	at com.android.server.pm.PackageInstallerSession.markAsSealed(PackageInstallerSession.java:2394)
+01-16 19:48:30.520   569   644 E SystemServiceRegistry: 	at com.android.server.pm.PackageInstallerSession.commit(PackageInstallerSession.java:2143)
+01-16 19:48:30.520   569   644 E SystemServiceRegistry: 	at android.content.pm.PackageInstaller$Session.commit(PackageInstaller.java:1977)
+01-16 19:48:30.520   569   644 E SystemServiceRegistry: 	at com.android.server.pm.PackageManagerShellCommand.doCommitSession(PackageManagerShellCommand.java:4298)
+01-16 19:48:30.520   569   644 E SystemServiceRegistry: 	at com.android.server.pm.PackageManagerShellCommand.doRunInstall(PackageManagerShellCommand.java:1634)
+01-16 19:48:30.520   569   644 E SystemServiceRegistry: 	at com.android.server.pm.PackageManagerShellCommand.runInstall(PackageManagerShellCommand.java:1561)
+01-16 19:48:30.520   569   644 E SystemServiceRegistry: 	at com.android.server.pm.PackageManagerShellCommand.onCommand(PackageManagerShellCommand.java:245)
+01-16 19:48:30.520   569   644 E SystemServiceRegistry: 	at com.android.modules.utils.BasicShellCommandHandler.exec(BasicShellCommandHandler.java:97)
+01-16 19:48:30.520   569   644 E SystemServiceRegistry: 	at android.os.ShellCommand.exec(ShellCommand.java:38)
+01-16 19:48:30.520   569   644 E SystemServiceRegistry: 	at com.android.server.pm.PackageManagerService$IPackageManagerImpl.onShellCommand(PackageManagerService.java:6561)
+01-16 19:48:30.520   569   644 E SystemServiceRegistry: 	at android.os.Binder.shellCommand(Binder.java:1230)
+01-16 19:48:30.520   569   644 E SystemServiceRegistry: 	at android.os.Binder.onTransact(Binder.java:1043)
+01-16 19:48:30.520   569   644 E SystemServiceRegistry: 	at android.content.pm.IPackageManager$Stub.onTransact(IPackageManager.java:4620)
+01-16 19:48:30.520   569   644 E SystemServiceRegistry: 	at com.android.server.pm.PackageManagerService$IPackageManagerImpl.onTransact(PackageManagerService.java:6545)
+01-16 19:48:30.520   569   644 E SystemServiceRegistry: 	at android.os.Binder.execTransactInternal(Binder.java:1505)
+01-16 19:48:30.520   569   644 E SystemServiceRegistry: 	at android.os.Binder.execTransact(Binder.java:1444)
+01-16 19:48:30.520   569   644 E SystemServiceRegistry: Manager wrapper not available: persistent_data_block
+01-16 19:48:30.743   569   638 E AtomicFile: Failed to rename /data/system/install_sessions.xml.new to /data/system/install_sessions.xml
+01-16 19:48:30.744   569   730 E AppOps  : attributionTag VCN not declared in manifest of android
+01-16 19:48:30.769   945   945 E SmsApplication: com.google.android.apps.messaging lost android:read_cell_broadcasts:  (fixing)
+01-16 19:48:30.777   569  2263 E RoleControllerServiceImpl: Default/fallback role holder package doesn't qualify for the role, package: com.google.android.gms.supervision, role: android.app.role.SYSTEM_SUPERVISION
+01-16 19:48:30.790   945   945 E CellBroadcastUtils: getDefaultCellBroadcastReceiverPackageName: no package found
+01-16 19:48:30.801   569  2263 E RoleControllerServiceImpl: Default/fallback role holder package doesn't qualify for the role, package: com.google.android.gms, role: android.app.role.WALLET
+01-16 19:48:30.805   569  2263 E RoleControllerServiceImpl: Default/fallback role holder package doesn't qualify for the role, package: com.google.android.devicelockcontroller, role: android.app.role.SYSTEM_FINANCED_DEVICE_CONTROLLER
+01-16 19:48:30.913   945   945 E SmsApplication: com.google.android.apps.messaging lost android:read_cell_broadcasts:  (fixing)
+01-16 19:48:30.924  6336  6662 E BackupHelper: Could not parse delayed permissions
+01-16 19:48:30.924  6336  6662 E BackupHelper: java.io.FileNotFoundException: /data/user_de/0/com.google.android.permissioncontroller/files/delayed_restore_permissions.xml: open failed: ENOENT (No such file or directory)
+01-16 19:48:30.924  6336  6662 E BackupHelper: 	at libcore.io.IoBridge.open(IoBridge.java:574)
+01-16 19:48:30.924  6336  6662 E BackupHelper: 	at java.io.FileInputStream.<init>(FileInputStream.java:179)
+01-16 19:48:30.924  6336  6662 E BackupHelper: 	at android.app.ContextImpl.openFileInput(ContextImpl.java:774)
+01-16 19:48:30.924  6336  6662 E BackupHelper: 	at com.android.permissioncontroller.permission.service.BackupHelper.restoreDelayedState(BackupHelper.java:406)
+01-16 19:48:30.924  6336  6662 E BackupHelper: 	at com.android.permissioncontroller.permission.service.PermissionControllerServiceImpl.onRestoreDelayedRuntimePermissionsBackup(PermissionControllerServiceImpl.java:430)
+01-16 19:48:30.924  6336  6662 E BackupHelper: 	at com.android.permissioncontroller.permission.service.PermissionControllerServiceImpl.lambda$onApplyStagedRuntimePermissionBackup$4(PermissionControllerServiceImpl.java:424)
+01-16 19:48:30.924  6336  6662 E BackupHelper: 	at com.android.permissioncontroller.permission.service.PermissionControllerServiceImpl.$r8$lambda$TbAZrpVHU85LYBnlVdzyQvclH0Q(PermissionControllerServiceImpl.java:0)
+01-16 19:48:30.924  6336  6662 E BackupHelper: 	at com.android.permissioncontroller.permission.service.PermissionControllerServiceImpl$$ExternalSyntheticLambda4.run(R8$$SyntheticClass:0)
+01-16 19:48:30.924  6336  6662 E BackupHelper: 	at android.os.AsyncTask$SerialExecutor$1.run(AsyncTask.java:305)
+01-16 19:48:30.924  6336  6662 E BackupHelper: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+01-16 19:48:30.924  6336  6662 E BackupHelper: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+01-16 19:48:30.924  6336  6662 E BackupHelper: 	at java.lang.Thread.run(Thread.java:1012)
+01-16 19:48:30.924  6336  6662 E BackupHelper: Caused by: android.system.ErrnoException: open failed: ENOENT (No such file or directory)
+01-16 19:48:30.924  6336  6662 E BackupHelper: 	at libcore.io.Linux.open(Native Method)
+01-16 19:48:30.924  6336  6662 E BackupHelper: 	at libcore.io.ForwardingOs.open(ForwardingOs.java:563)
+01-16 19:48:30.924  6336  6662 E BackupHelper: 	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:274)
+01-16 19:48:30.924  6336  6662 E BackupHelper: 	at libcore.io.ForwardingOs.open(ForwardingOs.java:563)
+01-16 19:48:30.924  6336  6662 E BackupHelper: 	at android.app.ActivityThread$AndroidOs.open(ActivityThread.java:8591)
+01-16 19:48:30.924  6336  6662 E BackupHelper: 	at libcore.io.IoBridge.open(IoBridge.java:560)
+01-16 19:48:30.924  6336  6662 E BackupHelper: 	... 11 more
+01-16 19:48:30.937   945   945 E CellBroadcastUtils: getDefaultCellBroadcastReceiverPackageName: no package found
+01-16 19:48:33.947   569  1482 E TaskPersister: File error accessing recents directory (directory doesn't exist?).
+01-16 19:50:42.573  5672  5672 E A       : onError
+01-16 19:50:42.573  5672  5672 E A       : com.google.android.apps.gsa.shared.speech.b.l: errorCode: 65561, engine: 2
+01-16 19:50:42.573  5672  5672 E A       : 	at com.google.android.apps.gsa.staticplugins.bp.a.f.a(PG:23)
+01-16 19:50:42.573  5672  5672 E A       : 	at com.google.android.apps.gsa.s3.o.hg(PG:13)
+01-16 19:50:42.573  5672  5672 E A       : 	at com.google.ch.g.a.f.e(PG:9)
+01-16 19:50:42.573  5672  5672 E A       : 	at com.google.android.apps.gsa.speech.k.a.g.d(PG:162)
+01-16 19:50:42.573  5672  5672 E A       : 	at com.google.android.apps.gsa.speech.k.a.g.iN(PG:26)
+01-16 19:50:42.573  5672  5672 E A       : 	at com.google.android.apps.gsa.s3.p.c(PG:102)
+01-16 19:50:42.573  5672  5672 E A       : 	at com.google.android.apps.gsa.s3.q.run(PG:1)
+01-16 19:50:42.573  5672  5672 E A       : 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:487)
+01-16 19:50:42.573  5672  5672 E A       : 	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+01-16 19:50:42.573  5672  5672 E A       : 	at com.google.android.apps.gsa.shared.util.c.a.e.run(PG:12)
+01-16 19:50:42.573  5672  5672 E A       : 	at com.google.android.apps.gsa.shared.util.c.a.bg.run(PG:3)
+01-16 19:50:42.573  5672  5672 E A       : 	at com.google.android.apps.gsa.shared.util.c.a.bg.run(PG:3)
+01-16 19:50:42.573  5672  5672 E A       : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+01-16 19:50:42.573  5672  5672 E A       : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+01-16 19:50:42.573  5672  5672 E A       : 	at java.lang.Thread.run(Thread.java:1012)
+01-16 19:50:42.573  5672  5672 E A       : 	at com.google.android.apps.gsa.shared.util.c.a.l.run(PG:42)
+01-16 19:50:42.573  5672  5672 E A       : Caused by: com.google.android.apps.gsa.shared.speech.b.n: errorCode: 65586, engine: 2
+01-16 19:50:42.573  5672  5672 E A       : 	at com.google.android.apps.gsa.s3.o.hg(PG:6)
+01-16 19:50:42.573  5672  5672 E A       : 	... 14 more
+01-16 19:50:42.573  5672  5672 E A       : Caused by: com.google.android.apps.gsa.shared.speech.b.j: errorCode: 401, engine: 2
+01-16 19:50:42.573  5672  5672 E A       : 	at com.google.android.apps.gsa.assistant.shared.n.i.b(PG:30)
+01-16 19:50:42.573  5672  5672 E A       : 	at com.google.android.apps.gsa.s3.producers.j.hq(PG:11)
+01-16 19:50:42.573  5672  5672 E A       : 	at com.google.android.apps.gsa.speech.k.a.g.d(PG:135)
+01-16 19:50:42.573  5672  5672 E A       : 	... 12 more
+01-16 19:52:03.083  6789  6789 E oid.apps.photos: Not starting debugger since process cannot load the jdwp agent.
+01-16 19:52:03.096   569   660 E JobScheduler.Quota: <0>com.google.android.apps.photos has 0 EJ quota without running anything
+01-16 19:52:03.097   569   660 E JobScheduler.Quota: <0>com.google.android.apps.photos has 0 EJ quota without running anything
